@@ -9,6 +9,7 @@ venv/
 instance/
 .DS_Store
 *.log
-data/raw_satellite/
+data/models/
 data/processed/
+data/raw/
 logs/
