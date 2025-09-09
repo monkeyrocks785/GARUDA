@@ -9,8 +9,9 @@ venv/
 instance/
 .DS_Store
 *.log
-data/models/
-data/processed/
-data/raw/
 logs/
 token
+data/processed/analyzed/*
+data/processed/reports/*
+data/raw/kml_files/*
+data/models/*
