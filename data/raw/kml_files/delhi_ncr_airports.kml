@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>GARUDA Real Airport Assets</name>
+    <description>Real strategic airport assets generated on 2025-09-09 17:00:38</description>
+
+    <Placemark>
+        <name>Safdarjung Airport</name>
+        <description>Type: Airport | Priority: LOW | Source: OSM (way) | ID: 44193643</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2039075,28.5829859,0 77.20790749999999,28.5829859,0 77.20790749999999,28.5869859,0 77.2039075,28.5869859,0 77.2039075,28.5829859,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Indira Gandhi International Airport</name>
+        <description>Type: Airport | Priority: HIGH | Source: OSM (way) | ID: 181594936</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0949952,28.553165,0 77.09899519999999,28.553165,0 77.09899519999999,28.557164999999998,0 77.0949952,28.557164999999998,0 77.0949952,28.553165,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Hindon Airport</name>
+        <description>Type: Airport | Priority: HIGH | Source: OSM (way) | ID: 265984430</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3596691,28.702336000000003,0 77.3636691,28.702336000000003,0 77.3636691,28.706336,0 77.3596691,28.706336,0 77.3596691,28.702336000000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>

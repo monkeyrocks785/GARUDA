@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>GARUDA Real Railway Infrastructure Assets</name>
+    <description>Real strategic railway infrastructure assets generated on 2025-09-09 17:01:08</description>
+
+    <Placemark>
+        <name>Central Station</name>
+        <description>Type: Railway Infrastructure | Priority: MEDIUM | Source: OSM (fallback) | ID: fallback_0</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.888,19.137999999999998,0 72.892,19.137999999999998,0 72.892,19.141999999999996,0 72.888,19.141999999999996,0 72.888,19.137999999999998,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Metro Terminal</name>
+        <description>Type: Railway Infrastructure | Priority: MEDIUM | Source: OSM (fallback) | ID: fallback_1</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.89800000000001,19.148,0 72.902,19.148,0 72.902,19.151999999999997,0 72.89800000000001,19.151999999999997,0 72.89800000000001,19.148,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Railway Junction</name>
+        <description>Type: Railway Infrastructure | Priority: MEDIUM | Source: OSM (fallback) | ID: fallback_2</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.90800000000002,19.158,0 72.912,19.158,0 72.912,19.162,0 72.90800000000002,19.162,0 72.90800000000002,19.158,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>

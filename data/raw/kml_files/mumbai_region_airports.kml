@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>GARUDA Real Airport Assets</name>
+    <description>Real strategic airport assets generated on 2025-09-09 17:00:57</description>
+
+    <Placemark>
+        <name>Chhatrapati Shivaji Maharaj International Airport</name>
+        <description>Type: Airport | Priority: HIGH | Source: OSM (way) | ID: 22826676</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.8609148,19.088154900000003,0 72.8649148,19.088154900000003,0 72.8649148,19.0921549,0 72.8609148,19.0921549,0 72.8609148,19.088154900000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Juhu Aerodrome</name>
+        <description>Type: Airport | Priority: LOW | Source: OSM (way) | ID: 49794789</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.8311322,19.0958086,0 72.83513219999999,19.0958086,0 72.83513219999999,19.0998086,0 72.8311322,19.0998086,0 72.8311322,19.0958086,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Navi Mumbai International Airport Heliport</name>
+        <description>Type: Airport | Priority: HIGH | Source: OSM (way) | ID: 1064335319</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>73.0357577,18.9971344,0 73.0397577,18.9971344,0 73.0397577,19.001134399999998,0 73.0357577,19.001134399999998,0 73.0357577,18.9971344,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>

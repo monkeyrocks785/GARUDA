@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+.env
+venv/
+instance/
+.DS_Store
+*.log
+data/raw_satellite/
+data/processed/
+logs/

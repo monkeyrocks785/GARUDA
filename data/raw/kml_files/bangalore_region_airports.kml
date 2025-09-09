@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>GARUDA Real Airport Assets</name>
+    <description>Real strategic airport assets generated on 2025-09-09 17:01:20</description>
+
+    <Placemark>
+        <name>HAL Airport</name>
+        <description>Type: Airport | Priority: HIGH | Source: OSM (way) | ID: 30333120</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.6673458,12.949478899999999,0 77.6713458,12.949478899999999,0 77.6713458,12.9534789,0 77.6673458,12.9534789,0 77.6673458,12.949478899999999,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Jakkur Aerodrome</name>
+        <description>Type: Airport | Priority: LOW | Source: OSM (way) | ID: 36988989</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.5956091,13.0759276,0 77.5996091,13.0759276,0 77.5996091,13.079927600000001,0 77.5956091,13.079927600000001,0 77.5956091,13.0759276,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>

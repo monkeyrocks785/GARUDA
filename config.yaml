@@ -1,0 +1,66 @@
+# GARUDA Configuration File
+# Geospatial Asset Reconnaissance Unified Defense Analytics
+
+system:
+  name: "GARUDA"
+  version: "1.0.0"
+  description: "Strategic Asset Monitoring System"
+
+directories:
+  kml_input: "./data/raw/kml_files/"
+  satellite_data: "./data/raw/satellite_imagery/"
+  processed_output: "./data/processed/analyzed/"
+  reports: "./data/processed/reports/"
+  models: "./data/models/"
+
+satellite:
+  preferred_datasets:
+    - "LANDSAT_8_C2_L2"
+    - "LANDSAT_9_C2_L2"
+    - "SENTINEL_2A"
+  max_cloud_cover: 15
+  download_timeout: 600
+  retry_attempts: 3
+  real_mode: true
+  
+usgs:
+  username: "monkeyrocks785"
+  password: "your_password"
+  api_token: "CHt6HptuFRJ2c8rJvFOLFNNHn2fgpjAHn!avIbJ9XEJb53Nx35nfWRRiTZ@kTrwd"
+  base_url: "https://m2m.cr.usgs.gov/api/api/json/stable/"
+  node: "EE"
+  auth_method: "token"
+
+detection:
+  sensitivity: "medium"
+  min_change_area: 500
+  threat_threshold: 0.2
+  use_real_algorithms: true
+  
+assets:
+  types:
+    Bridge: "HIGH"
+    Tunnel: "HIGH"
+    Border Infrastructure: "HIGH"
+    Power Infrastructure: "HIGH"
+    Military Facility: "HIGH"
+    Airport: "HIGH"
+    Railway Infrastructure: "MEDIUM"
+    Port Infrastructure: "MEDIUM"
+    Communication Infrastructure: "MEDIUM"
+    
+monitoring:
+  check_interval_days: 7
+  alert_threshold: "MEDIUM"
+  max_scenes_per_period: 5
+  
+logging:
+  level: "INFO"
+  file: "logs/garuda.log"
+  max_size_mb: 10
+  backup_count: 5
+  
+development:
+  mock_mode: false
+  debug_output: true
+  test_data_path: "./tests/data/"

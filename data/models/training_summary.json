@@ -1,0 +1,16 @@
+{
+  "training_completed": "2025-09-09T18:02:29.478301",
+  "samples_trained": 10291,
+  "growth_model": {
+    "mse": 2.650165955101921e-05,
+    "r2": 0.6650347145285216
+  },
+  "threat_model": {
+    "mse": 0.0031009339408232975,
+    "r2": 0.9217445582343601
+  },
+  "anomaly_model": {
+    "anomaly_rate": 0.0999902827713536
+  },
+  "sklearn_available": true
+}

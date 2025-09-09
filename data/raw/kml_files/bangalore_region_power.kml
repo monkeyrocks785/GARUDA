@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>GARUDA Real Power Infrastructure Assets</name>
+    <description>Real strategic power infrastructure assets generated on 2025-09-09 17:01:23</description>
+
+    <Placemark>
+        <name>High Court Of Karnataka Roof Top Solar Photovoltaic Plant</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 3612892673</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.5905511,12.9755323,0 77.59455109999999,12.9755323,0 77.59455109999999,12.9795323,0 77.5905511,12.9795323,0 77.5905511,12.9755323,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 2</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7215593402</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.5610139,13.0151632,0 77.5650139,13.0151632,0 77.5650139,13.019163200000001,0 77.5610139,13.019163200000001,0 77.5610139,13.0151632,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 3</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7215593403</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.56095350000001,13.0151632,0 77.5649535,13.0151632,0 77.5649535,13.019163200000001,0 77.56095350000001,13.019163200000001,0 77.56095350000001,13.0151632,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 4</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 8442182840</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.5386282,12.996044399999999,0 77.5426282,12.996044399999999,0 77.5426282,13.0000444,0 77.5386282,13.0000444,0 77.5386282,12.996044399999999,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 5</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9910000919</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.55005840000001,12.9882116,0 77.5540584,12.9882116,0 77.5540584,12.992211600000001,0 77.55005840000001,12.992211600000001,0 77.55005840000001,12.9882116,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 6</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9930197126</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.63765260000001,12.9496448,0 77.6416526,12.9496448,0 77.6416526,12.953644800000001,0 77.63765260000001,12.953644800000001,0 77.63765260000001,12.9496448,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 7</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9935476919</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.5668363,13.0126218,0 77.5708363,13.0126218,0 77.5708363,13.016621800000001,0 77.5668363,13.016621800000001,0 77.5668363,13.0126218,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 8</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9936668904</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.54740000000001,12.981429299999999,0 77.5514,12.981429299999999,0 77.5514,12.9854293,0 77.54740000000001,12.9854293,0 77.54740000000001,12.981429299999999,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 9</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9951289119</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.60492160000001,12.9449422,0 77.6089216,12.9449422,0 77.6089216,12.948942200000001,0 77.60492160000001,12.948942200000001,0 77.60492160000001,12.9449422,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 10</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9953960424</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.5484287,12.996281999999999,0 77.5524287,12.996281999999999,0 77.5524287,13.000282,0 77.5484287,13.000282,0 77.5484287,12.996281999999999,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 11</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9953960425</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.54841230000001,12.9962804,0 77.5524123,12.9962804,0 77.5524123,13.000280400000001,0 77.54841230000001,13.000280400000001,0 77.54841230000001,12.9962804,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 12</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9981910296</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.60437180000001,12.9715764,0 77.6083718,12.9715764,0 77.6083718,12.975576400000001,0 77.60437180000001,12.975576400000001,0 77.60437180000001,12.9715764,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 13</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9981998122</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.60300120000001,12.973061,0 77.6070012,12.973061,0 77.6070012,12.977061,0 77.60300120000001,12.977061,0 77.60300120000001,12.973061,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 14</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9981998126</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.6028986,12.973087099999999,0 77.6068986,12.973087099999999,0 77.6068986,12.9770871,0 77.6028986,12.9770871,0 77.6028986,12.973087099999999,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 15</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 10124399240</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.5472541,13.000028599999998,0 77.5512541,13.000028599999998,0 77.5512541,13.0040286,0 77.5472541,13.0040286,0 77.5472541,13.000028599999998,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 16</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 10129602794</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.594111,12.9631966,0 77.59811099999999,12.9631966,0 77.59811099999999,12.967196600000001,0 77.594111,12.967196600000001,0 77.594111,12.9631966,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 17</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 10276162850</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.5521398,13.0033091,0 77.5561398,13.0033091,0 77.5561398,13.0073091,0 77.5521398,13.0073091,0 77.5521398,13.0033091,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 18</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 10279647097</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.59564660000001,12.9733295,0 77.5996466,12.9733295,0 77.5996466,12.977329500000002,0 77.59564660000001,12.977329500000002,0 77.59564660000001,12.9733295,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 19</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 10286321794</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.6047527,12.9660391,0 77.6087527,12.9660391,0 77.6087527,12.970039100000001,0 77.6047527,12.970039100000001,0 77.6047527,12.9660391,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 20</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 10295411728</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.59910930000001,12.973552399999999,0 77.6031093,12.973552399999999,0 77.6031093,12.9775524,0 77.59910930000001,12.9775524,0 77.59910930000001,12.973552399999999,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 21</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 11178123925</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.5676931,12.9524572,0 77.57169309999999,12.9524572,0 77.57169309999999,12.956457200000001,0 77.5676931,12.956457200000001,0 77.5676931,12.9524572,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 22</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 11197082946</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.72689910000001,12.955275199999999,0 77.7308991,12.955275199999999,0 77.7308991,12.9592752,0 77.72689910000001,12.9592752,0 77.72689910000001,12.955275199999999,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 23</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 11399914990</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.6496889,12.9100795,0 77.65368889999999,12.9100795,0 77.65368889999999,12.914079500000001,0 77.6496889,12.914079500000001,0 77.6496889,12.9100795,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 24</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 11444019912</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.6993223,12.9922382,0 77.7033223,12.9922382,0 77.7033223,12.9962382,0 77.6993223,12.9962382,0 77.6993223,12.9922382,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 25</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 11478107300</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.5742491,12.986593399999999,0 77.5782491,12.986593399999999,0 77.5782491,12.9905934,0 77.5742491,12.9905934,0 77.5742491,12.986593399999999,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 26</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 11559367513</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.6038394,13.0668951,0 77.60783939999999,13.0668951,0 77.60783939999999,13.070895100000001,0 77.6038394,13.070895100000001,0 77.6038394,13.0668951,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 27</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 12101709436</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.6006531,12.9634282,0 77.6046531,12.9634282,0 77.6046531,12.9674282,0 77.6006531,12.9674282,0 77.6006531,12.9634282,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 28</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 12101709438</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.60041790000001,12.9634778,0 77.6044179,12.9634778,0 77.6044179,12.967477800000001,0 77.60041790000001,12.967477800000001,0 77.60041790000001,12.9634778,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 29</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 12788681458</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.6143047,12.983684199999999,0 77.6183047,12.983684199999999,0 77.6183047,12.9876842,0 77.6143047,12.9876842,0 77.6143047,12.983684199999999,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 30</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 12788681459</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.61432280000001,12.9836744,0 77.6183228,12.9836744,0 77.6183228,12.987674400000001,0 77.61432280000001,12.987674400000001,0 77.61432280000001,12.9836744,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 31</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 13075642409</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.7089187,12.898716499999999,0 77.71291869999999,12.898716499999999,0 77.71291869999999,12.9027165,0 77.7089187,12.9027165,0 77.7089187,12.898716499999999,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 32</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (way) | ID: 1116445601</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.5603359,13.01534,0 77.56433589999999,13.01534,0 77.56433589999999,13.019340000000001,0 77.5603359,13.019340000000001,0 77.5603359,13.01534,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>

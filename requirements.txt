@@ -1,0 +1,37 @@
+# GARUDA - Geospatial Asset Reconnaissance Unified Defense Analytics
+# Core geospatial libraries
+geopandas>=0.14.0
+rasterio>=1.3.0
+shapely>=2.0.0
+fiona>=1.9.0
+pyproj>=3.6.0
+
+# Data processing and analysis
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Machine learning and computer vision
+opencv-python>=4.8.0
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.15.0
+folium>=0.14.0
+
+# Web framework and APIs
+flask>=2.3.0
+requests>=2.31.0
+
+# Configuration and utilities
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Development and testing
+pytest>=7.4.0
+
+# Asset Discovery Dependencies
+overpy>=0.6
+
+# Additional utilities
+tqdm>=4.66.0

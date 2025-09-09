@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>GARUDA Real Power Infrastructure Assets</name>
+    <description>Real strategic power infrastructure assets generated on 2025-09-09 17:01:00</description>
+
+    <Placemark>
+        <name>Power Generator 2</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 4956364801</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>73.0153576,19.0024969,0 73.01935759999999,19.0024969,0 73.01935759999999,19.0064969,0 73.0153576,19.0064969,0 73.0153576,19.0024969,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Tata Power Dharavi</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6317353891</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.85183740000001,19.0332204,0 72.8558374,19.0332204,0 72.8558374,19.0372204,0 72.85183740000001,19.0372204,0 72.85183740000001,19.0332204,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 3</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7680743496</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.8946528,18.9999636,0 72.8986528,18.9999636,0 72.8986528,19.0039636,0 72.8946528,19.0039636,0 72.8946528,18.9999636,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 4</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7680743497</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.8959135,18.9999281,0 72.8999135,18.9999281,0 72.8999135,19.0039281,0 72.8959135,19.0039281,0 72.8959135,18.9999281,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 5</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7680743499</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.8986493,18.998462200000002,0 72.9026493,18.998462200000002,0 72.9026493,19.0024622,0 72.8986493,19.0024622,0 72.8986493,18.998462200000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>tata power vs bhavan dss</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 11716428210</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.92149380000001,19.029881500000002,0 72.9254938,19.029881500000002,0 72.9254938,19.0338815,0 72.92149380000001,19.0338815,0 72.92149380000001,19.029881500000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 7</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (node) | ID: 12912987764</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.9994121,19.157582,0 73.00341209999999,19.157582,0 73.00341209999999,19.161582,0 72.9994121,19.161582,0 72.9994121,19.157582,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 8</name>
+        <description>Type: Power Infrastructure | Priority: HIGH | Source: OSM (way) | ID: 421287222</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.9174658,19.0057866,0 72.9214658,19.0057866,0 72.9214658,19.009786599999998,0 72.9174658,19.009786599999998,0 72.9174658,19.0057866,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Trombay Thermal Power Station</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (way) | ID: 430025268</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.89752270000001,18.9985717,0 72.9015227,18.9985717,0 72.9015227,19.002571699999997,0 72.89752270000001,19.002571699999997,0 72.89752270000001,18.9985717,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 10</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (way) | ID: 913226054</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.88113390000001,19.047221200000003,0 72.8851339,19.047221200000003,0 72.8851339,19.0512212,0 72.88113390000001,19.0512212,0 72.88113390000001,19.047221200000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 11</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (way) | ID: 959719216</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.91996040000001,19.162592800000002,0 72.9239604,19.162592800000002,0 72.9239604,19.1665928,0 72.91996040000001,19.1665928,0 72.91996040000001,19.162592800000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 12</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (way) | ID: 959719217</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.918424,19.1633947,0 72.92242399999999,19.1633947,0 72.92242399999999,19.1673947,0 72.918424,19.1673947,0 72.918424,19.1633947,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>substation towers</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (way) | ID: 1121011018</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.8784662,19.212604600000002,0 72.8824662,19.212604600000002,0 72.8824662,19.2166046,0 72.8784662,19.2166046,0 72.8784662,19.212604600000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Strategic Power 14</name>
+        <description>Type: Power Infrastructure | Priority: LOW | Source: OSM (way) | ID: 1223822750</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>72.88561200000001,19.2771461,0 72.889612,19.2771461,0 72.889612,19.281146099999997,0 72.88561200000001,19.281146099999997,0 72.88561200000001,19.2771461,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>

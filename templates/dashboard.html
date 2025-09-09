@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦅 GARUDA - Strategic Asset Monitoring Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        .eagle-header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 30px 0;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .eagle-logo {
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .system-badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            margin-left: 15px;
+        }
+
+        .stat-card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .asset-card {
+            border-left: 4px solid #2a5298;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+        }
+
+        .asset-card:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .threat-high {
+            border-left-color: #dc3545 !important;
+        }
+
+        .threat-medium {
+            border-left-color: #fd7e14 !important;
+        }
+
+        .threat-low {
+            border-left-color: #28a745 !important;
+        }
+
+        .map-container {
+            height: 500px;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .chart-container {
+            height: 400px;
+        }
+
+        .loading-spinner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+        }
+
+        .status-indicator {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+        }
+
+        .status-operational {
+            background-color: #28a745;
+        }
+
+        .status-warning {
+            background-color: #ffc107;
+        }
+
+        .status-error {
+            background-color: #dc3545;
+        }
+
+        .priority-badge {
+            font-size: 0.75rem;
+            padding: 4px 8px;
+        }
+
+        .asset-type-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            margin-right: 15px;
+        }
+
+        .type-bridge {
+            background: #17a2b8;
+        }
+
+        .type-tunnel {
+            background: #6f42c1;
+        }
+
+        .type-airport {
+            background: #20c997;
+        }
+
+        .type-railway {
+            background: #fd7e14;
+        }
+
+        .type-port {
+            background: #6610f2;
+        }
+
+        .type-power {
+            background: #e83e8c;
+        }
+
+        .type-default {
+            background: #6c757d;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <div class="eagle-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1 class="mb-1 eagle-logo">
+                        <i class="fas fa-eye"></i> GARUDA
+                        <span class="system-badge">
+                            <i class="fas fa-circle text-success"></i> OPERATIONAL
+                        </span>
+                    </h1>
+                    <p class="mb-0 fs-5">Geospatial Asset Reconnaissance Unified Defense Analytics</p>
+                    <small class="opacity-75">Strategic Asset Monitoring & Threat Detection System</small>
+                </div>
+                <div class="col-md-4 text-end">
+                    <div class="badge bg-light text-dark fs-6 mb-2">
+                        <i class="fas fa-clock"></i> <span id="current-time"></span>
+                    </div><br>
+                    <small id="last-update" class="opacity-75">Initializing...</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- System Status Bar -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="alert alert-light border" role="alert">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <strong><i class="fas fa-shield-alt"></i> System Status:</strong>
+                            <span class="status-indicator status-operational"></span> GARUDA Core
+                            <span class="status-indicator status-operational"></span> Asset Processing
+                            <span class="status-indicator status-warning"></span> Satellite Integration
+                            <span class="status-indicator status-operational"></span> Web Dashboard
+                        </div>
+                        <div class="col-md-4 text-end">
+                            <button class="btn btn-outline-primary btn-sm" onclick="refreshDashboard()">
+                                <i class="fas fa-sync-alt"></i> Refresh
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats Overview -->
+        <div class="row mb-4">
+            <div class="col-lg-3 col-md-6 mb-3">
+                <div class="card stat-card bg-primary text-white h-100">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="flex-grow-1">
+                            <h2 class="mb-0" id="total-assets">0</h2>
+                            <p class="mb-0">Strategic Assets</p>
+                            <small class="opacity-75">Under GARUDA Protection</small>
+                        </div>
+                        <div class="fs-1 opacity-50">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3">
+                <div class="card stat-card bg-danger text-white h-100">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="flex-grow-1">
+                            <h2 class="mb-0" id="high-priority">0</h2>
+                            <p class="mb-0">High Priority</p>
+                            <small class="opacity-75">Critical Infrastructure</small>
+                        </div>
+                        <div class="fs-1 opacity-50">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3">
+                <div class="card stat-card bg-warning text-white h-100">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="flex-grow-1">
+                            <h2 class="mb-0" id="medium-priority">0</h2>
+                            <p class="mb-0">Medium Priority</p>
+                            <small class="opacity-75">Important Assets</small>
+                        </div>
+                        <div class="fs-1 opacity-50">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3">
+                <div class="card stat-card bg-success text-white h-100">
+                    <div class="card-body d-flex align-items-center">
+                        <div class="flex-grow-1">
+                            <h2 class="mb-0" id="low-priority">0</h2>
+                            <p class="mb-0">Low Priority</p>
+                            <small class="opacity-75">Standard Assets</small>
+                        </div>
+                        <div class="fs-1 opacity-50">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Interactive Map -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-white border-bottom">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <h5 class="mb-0">
+                                    <i class="fas fa-map-marked-alt text-primary"></i>
+                                    Strategic Asset Surveillance Map
+                                </h5>
+                            </div>
+                            <div class="col-auto">
+                                <div class="btn-group btn-group-sm">
+                                    <button class="btn btn-outline-secondary" onclick="refreshMap()">
+                                        <i class="fas fa-sync-alt"></i>
+                                    </button>
+                                    <button class="btn btn-outline-secondary" onclick="toggleFullscreen('asset-map')">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <div id="asset-map" class="map-container">
+                            <div class="loading-spinner">
+                                <div class="text-center">
+                                    <div class="spinner-border text-primary" role="status">
+                                        <span class="visually-hidden">Loading map...</span>
+                                    </div>
+                                    <p class="mt-2 text-muted">Loading strategic asset map...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Analytics Charts -->
+        <div class="row mb-4">
+            <div class="col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-header bg-white">
+                        <h6 class="mb-0">
+                            <i class="fas fa-chart-pie text-info"></i>
+                            Asset Distribution
+                        </h6>
+                    </div>
+                    <div class="card-body">
+                        <div id="type-chart" class="chart-container"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-header bg-white">
+                        <h6 class="mb-0">
+                            <i class="fas fa-chart-bar text-warning"></i>
+                            Priority Levels
+                        </h6>
+                    </div>
+                    <div class="card-body">
+                        <div id="priority-chart" class="chart-container"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <div class="card h-100">
+                    <div class="card-header bg-white">
+                        <h6 class="mb-0">
+                            <i class="fas fa-shield-alt text-danger"></i>
+                            Threat Assessment
+                        </h6>
+                    </div>
+                    <div class="card-body">
+                        <div id="threat-chart" class="chart-container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Asset List -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-white">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <h5 class="mb-0">
+                                    <i class="fas fa-list-ul text-success"></i>
+                                    Strategic Asset Registry
+                                </h5>
+                            </div>
+                            <div class="col-auto">
+                                <div class="input-group input-group-sm">
+                                    <input type="text" class="form-control" id="asset-search"
+                                        placeholder="Search assets...">
+                                    <button class="btn btn-outline-secondary" onclick="searchAssets()">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div id="asset-list">
+                            <div class="loading-spinner">
+                                <div class="text-center">
+                                    <div class="spinner-border text-primary" role="status">
+                                        <span class="visually-hidden">Loading assets...</span>
+                                    </div>
+                                    <p class="mt-2 text-muted">Loading strategic assets...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h6>🦅 GARUDA - Strategic Asset Monitoring System</h6>
+                    <p class="mb-0 small">
+                        Geospatial Asset Reconnaissance Unified Defense Analytics<br>
+                        Professional strategic infrastructure monitoring and threat assessment
+                    </p>
+                </div>
+                <div class="col-md-4 text-end">
+                    <small class="text-muted">
+                        Version 1.0.0 | Operational<br>
+                        Last Update: <span id="footer-time"></span>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let assetsData = [];
+
+        // Update current time
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('current-time').textContent = now.toLocaleTimeString();
+            document.getElementById('footer-time').textContent = now.toLocaleString();
+        }
+
+        // Load dashboard data
+        async function loadDashboard() {
+            try {
+                // Load analytics
+                const analyticsResponse = await fetch('/api/analytics');
+                const analytics = await analyticsResponse.json();
+
+                if (analytics.error) {
+                    throw new Error(analytics.error);
+                }
+
+                // Update stats
+                document.getElementById('total-assets').textContent = analytics.total_assets;
+                document.getElementById('high-priority').textContent = analytics.priority_distribution.HIGH || 0;
+                document.getElementById('medium-priority').textContent = analytics.priority_distribution.MEDIUM || 0;
+                document.getElementById('low-priority').textContent = analytics.priority_distribution.LOW || 0;
+                document.getElementById('last-update').textContent = `Last updated: ${new Date(analytics.last_update).toLocaleString()}`;
+
+                // Load charts if we have data
+                if (analytics.total_assets > 0) {
+                    const typeChart = JSON.parse(analytics.type_chart);
+                    const priorityChart = JSON.parse(analytics.priority_chart);
+                    const threatChart = JSON.parse(analytics.threat_chart);
+
+                    Plotly.newPlot('type-chart', typeChart.data, typeChart.layout, { responsive: true, displayModeBar: false });
+                    Plotly.newPlot('priority-chart', priorityChart.data, priorityChart.layout, { responsive: true, displayModeBar: false });
+                    Plotly.newPlot('threat-chart', threatChart.data, threatChart.layout, { responsive: true, displayModeBar: false });
+                } else {
+                    // Show "no data" message in charts
+                    ['type-chart', 'priority-chart', 'threat-chart'].forEach(chartId => {
+                        document.getElementById(chartId).innerHTML = '<div class="text-center text-muted p-4">No data available</div>';
+                    });
+                }
+
+                // Load assets
+                const assetsResponse = await fetch('/api/assets');
+                const assetsResult = await assetsResponse.json();
+
+                if (Array.isArray(assetsResult)) {
+                    assetsData = assetsResult;
+                } else {
+                    assetsData = assetsResult.assets || [];
+                }
+
+                displayAssets(assetsData);
+
+                // Load map
+                loadMap();
+
+            } catch (error) {
+                console.error('Error loading dashboard:', error);
+                document.getElementById('asset-list').innerHTML =
+                    `<div class="alert alert-warning">
+                        <i class="fas fa-exclamation-triangle"></i> 
+                        Error loading data: ${error.message}
+                    </div>`;
+            }
+        }
+
+        async function loadMap() {
+            try {
+                const mapResponse = await fetch('/api/map');
+                const mapHTML = await mapResponse.text();
+                document.getElementById('asset-map').innerHTML = mapHTML;
+            } catch (error) {
+                console.error('Error loading map:', error);
+                document.getElementById('asset-map').innerHTML =
+                    '<div class="d-flex justify-content-center align-items-center h-100 text-muted">Map loading failed</div>';
+            }
+        }
+
+        function displayAssets(assets) {
+            const assetList = document.getElementById('asset-list');
+
+            if (!assets || assets.length === 0) {
+                assetList.innerHTML = `
+                    <div class="text-center text-muted p-4">
+                        <i class="fas fa-exclamation-circle fa-3x mb-3"></i>
+                        <h5>No Strategic Assets Found</h5>
+                        <p>Please add KML files to the data/raw/kml_files/ directory</p>
+                    </div>`;
+                return;
+            }
+
+            assetList.innerHTML = assets.map(asset => {
+                const typeClass = getTypeClass(asset.type);
+                const typeIcon = getTypeIcon(asset.type);
+
+                return `
+                <div class="asset-card card threat-${asset.threat_level.toLowerCase()} mb-3">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-auto">
+                                <div class="asset-type-icon ${typeClass}">
+                                    <i class="fas ${typeIcon}"></i>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <h6 class="card-title mb-1">${asset.name}</h6>
+                                <div class="mb-2">
+                                    <span class="badge bg-secondary me-2">${asset.type}</span>
+                                    <span class="badge priority-badge bg-${getPriorityColor(asset.priority)} me-2">
+                                        ${asset.priority} PRIORITY
+                                    </span>
+                                    <span class="badge bg-${getThreatColor(asset.threat_level)}">
+                                        ${asset.threat_level} THREAT
+                                    </span>
+                                </div>
+                                <small class="text-muted">
+                                    ${asset.description || 'Strategic infrastructure asset'}<br>
+                                    <i class="fas fa-file"></i> Source: ${asset.source_file}
+                                </small>
+                            </div>
+                            <div class="col-auto">
+                                <button class="btn btn-outline-primary btn-sm" onclick="viewAsset('${asset.id}')" title="View Details">
+                                    <i class="fas fa-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+            }).join('');
+        }
+
+        function getTypeClass(type) {
+            const typeMap = {
+                'Bridge': 'type-bridge',
+                'Tunnel': 'type-tunnel',
+                'Airport': 'type-airport',
+                'Railway Infrastructure': 'type-railway',
+                'Port Infrastructure': 'type-port',
+                'Power Infrastructure': 'type-power'
+            };
+            return typeMap[type] || 'type-default';
+        }
+
+        function getTypeIcon(type) {
+            const iconMap = {
+                'Bridge': 'fa-bridge',
+                'Tunnel': 'fa-mountain',
+                'Airport': 'fa-plane',
+                'Railway Infrastructure': 'fa-train',
+                'Port Infrastructure': 'fa-ship',
+                'Power Infrastructure': 'fa-bolt'
+            };
+            return iconMap[type] || 'fa-building';
+        }
+
+        function getPriorityColor(priority) {
+            const colorMap = {
+                'HIGH': 'danger',
+                'MEDIUM': 'warning',
+                'LOW': 'success'
+            };
+            return colorMap[priority] || 'secondary';
+        }
+
+        function getThreatColor(threat) {
+            const colorMap = {
+                'HIGH': 'danger',
+                'MEDIUM': 'warning',
+                'LOW': 'success'
+            };
+            return colorMap[threat] || 'secondary';
+        }
+
+        function searchAssets() {
+            const searchTerm = document.getElementById('asset-search').value.toLowerCase();
+            const filteredAssets = assetsData.filter(asset =>
+                asset.name.toLowerCase().includes(searchTerm) ||
+                asset.type.toLowerCase().includes(searchTerm) ||
+                asset.priority.toLowerCase().includes(searchTerm)
+            );
+            displayAssets(filteredAssets);
+        }
+
+        function refreshDashboard() {
+            loadDashboard();
+        }
+
+        function refreshMap() {
+            loadMap();
+        }
+
+        function viewAsset(assetId) {
+            window.open(`/asset/${assetId}`, '_blank');
+        }
+
+        function toggleFullscreen(elementId) {
+            const element = document.getElementById(elementId);
+            if (element.requestFullscreen) {
+                element.requestFullscreen();
+            }
+        }
+
+        // Search on Enter key
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('asset-search').addEventListener('keypress', function (e) {
+                if (e.key === 'Enter') {
+                    searchAssets();
+                }
+            });
+        });
+
+        // Initialize dashboard
+        updateTime();
+        setInterval(updateTime, 1000); // Update time every second
+        loadDashboard();
+
+        // Auto-refresh every 5 minutes
+        setInterval(loadDashboard, 5 * 60 * 1000);
+    </script>
+</body>
+
+</html>

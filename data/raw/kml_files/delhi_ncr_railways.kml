@@ -1,0 +1,3308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>GARUDA Real Railway Infrastructure Assets</name>
+    <description>Real strategic railway infrastructure assets generated on 2025-09-09 17:00:48</description>
+
+    <Placemark>
+        <name>Ramesh Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 249823635</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.12964960000001,28.6507444,0 77.1336496,28.6507444,0 77.1336496,28.6547444,0 77.12964960000001,28.6547444,0 77.12964960000001,28.6507444,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Anand Vihar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 252584508</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3124992,28.6478106,0 77.3164992,28.6478106,0 77.3164992,28.651810599999997,0 77.3124992,28.651810599999997,0 77.3124992,28.6478106,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Patel Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 268217229</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1672817,28.6430127,0 77.1712817,28.6430127,0 77.1712817,28.647012699999998,0 77.1672817,28.647012699999998,0 77.1672817,28.6430127,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Rithala</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 268381455</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1051813,28.718806400000002,0 77.10918129999999,28.718806400000002,0 77.10918129999999,28.7228064,0 77.1051813,28.7228064,0 77.1051813,28.718806400000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Pratap Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 268381457</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.19689740000001,28.6647177,0 77.2008974,28.6647177,0 77.2008974,28.6687177,0 77.19689740000001,28.6687177,0 77.19689740000001,28.6647177,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Pul Bangash</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 268381463</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.20541560000001,28.664406800000002,0 77.2094156,28.664406800000002,0 77.2094156,28.6684068,0 77.20541560000001,28.6684068,0 77.20541560000001,28.664406800000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Kashmere Gate</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 268381477</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.22624880000001,28.665449300000002,0 77.2302488,28.665449300000002,0 77.2302488,28.6694493,0 77.22624880000001,28.6694493,0 77.22624880000001,28.665449300000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Kohat Enclave</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 311963955</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1385393,28.6960415,0 77.1425393,28.6960415,0 77.1425393,28.700041499999998,0 77.1385393,28.700041499999998,0 77.1385393,28.6960415,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Khera Kalan</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 345199448</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1138609,28.7676903,0 77.1178609,28.7676903,0 77.1178609,28.7716903,0 77.1138609,28.7716903,0 77.1138609,28.7676903,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Karol Bagh</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 345234441</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1865235,28.6420122,0 77.1905235,28.6420122,0 77.1905235,28.646012199999998,0 77.1865235,28.646012199999998,0 77.1865235,28.6420122,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Kirti Nagar (Blue Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 347676531</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1486635,28.653746,0 77.15266349999999,28.653746,0 77.15266349999999,28.657746,0 77.1486635,28.657746,0 77.1486635,28.653746,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shadipur</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 347676595</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.15625870000001,28.649582900000002,0 77.1602587,28.649582900000002,0 77.1602587,28.6535829,0 77.15625870000001,28.6535829,0 77.15625870000001,28.649582900000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Moti Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 347676947</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.14042880000001,28.655859,0 77.1444288,28.655859,0 77.1444288,28.659858999999997,0 77.14042880000001,28.659858999999997,0 77.14042880000001,28.655859,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sikanderpur</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 535297593</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0910017,28.4792716,0 77.0950017,28.4792716,0 77.0950017,28.4832716,0 77.0910017,28.4832716,0 77.0910017,28.4792716,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Delhi Aerocity</name>
+        <description>Type: Railway Infrastructure | Priority: MEDIUM | Source: OSM (node) | ID: 554257763</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.11879490000001,28.5467786,0 77.1227949,28.5467786,0 77.1227949,28.550778599999997,0 77.11879490000001,28.550778599999997,0 77.11879490000001,28.5467786,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Hauz Khas (Yellow Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 554257787</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2047072,28.5422564,0 77.20870719999999,28.5422564,0 77.20870719999999,28.546256399999997,0 77.2047072,28.546256399999997,0 77.2047072,28.5422564,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shivaji Stadium</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 554257833</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2093218,28.626896300000002,0 77.21332179999999,28.626896300000002,0 77.21332179999999,28.6308963,0 77.2093218,28.6308963,0 77.2093218,28.626896300000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>New Delhi</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 554257841</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.22074210000001,28.6414826,0 77.2247421,28.6414826,0 77.2247421,28.645482599999998,0 77.22074210000001,28.645482599999998,0 77.22074210000001,28.6414826,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Tis Hazari</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 561316983</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2146306,28.665162600000002,0 77.2186306,28.665162600000002,0 77.2186306,28.6691626,0 77.2146306,28.6691626,0 77.2146306,28.665162600000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Delhi Cantonment</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 632050796</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1136635,28.6097094,0 77.11766349999999,28.6097094,0 77.11766349999999,28.613709399999998,0 77.1136635,28.613709399999998,0 77.1136635,28.6097094,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shastri Park</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663755930</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.24853010000001,28.6664339,0 77.2525301,28.6664339,0 77.2525301,28.6704339,0 77.24853010000001,28.6704339,0 77.24853010000001,28.6664339,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Seelampur</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663758609</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2648137,28.6678165,0 77.2688137,28.6678165,0 77.2688137,28.6718165,0 77.2648137,28.6718165,0 77.2648137,28.6678165,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Welcome (Red Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663758748</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2758548,28.6697524,0 77.2798548,28.6697524,0 77.2798548,28.673752399999998,0 77.2758548,28.673752399999998,0 77.2758548,28.6697524,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shahdara</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663758998</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2878858,28.671429800000002,0 77.29188579999999,28.671429800000002,0 77.29188579999999,28.6754298,0 77.2878858,28.6754298,0 77.2878858,28.671429800000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Delhi Shahdara Junction</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663759047</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.29020870000001,28.671455700000003,0 77.2942087,28.671455700000003,0 77.2942087,28.6754557,0 77.29020870000001,28.6754557,0 77.29020870000001,28.671455700000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Jhilmil</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663759851</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3103949,28.6737197,0 77.3143949,28.6737197,0 77.3143949,28.677719699999997,0 77.3103949,28.677719699999997,0 77.3103949,28.6737197,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Vivek Vihar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663760328</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3162947,28.6711908,0 77.32029469999999,28.6711908,0 77.32029469999999,28.6751908,0 77.3162947,28.6751908,0 77.3162947,28.6711908,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shastri Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663761411</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1798589,28.6680885,0 77.18385889999999,28.6680885,0 77.18385889999999,28.672088499999997,0 77.1798589,28.672088499999997,0 77.1798589,28.6680885,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Inderlok (Red Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663761428</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1683467,28.671589100000002,0 77.17234669999999,28.671589100000002,0 77.17234669999999,28.6755891,0 77.1683467,28.6755891,0 77.1683467,28.671589100000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Kanhaiya Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663761505</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1627754,28.680408200000002,0 77.16677539999999,28.680408200000002,0 77.16677539999999,28.6844082,0 77.1627754,28.6844082,0 77.1627754,28.680408200000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Keshav Puram</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663762151</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.15968330000001,28.6869264,0 77.1636833,28.6869264,0 77.1636833,28.6909264,0 77.15968330000001,28.6909264,0 77.15968330000001,28.6869264,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Netaji Subhash Place (Red Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663762964</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.15048560000001,28.6940485,0 77.1544856,28.6940485,0 77.1544856,28.6980485,0 77.15048560000001,28.6980485,0 77.15048560000001,28.6940485,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Pitam Pura</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663765153</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.13024970000001,28.7012676,0 77.1342497,28.7012676,0 77.1342497,28.7052676,0 77.13024970000001,28.7052676,0 77.13024970000001,28.7012676,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Rohini East</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 663766390</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.12399710000001,28.705577400000003,0 77.1279971,28.705577400000003,0 77.1279971,28.7095774,0 77.12399710000001,28.7095774,0 77.12399710000001,28.705577400000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sahibabad Junction</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 902351341</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.36243490000001,28.6722784,0 77.3664349,28.6722784,0 77.3664349,28.676278399999998,0 77.36243490000001,28.676278399999998,0 77.36243490000001,28.6722784,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Delhi Safdarjang</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 910356438</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1842115,28.5802036,0 77.1882115,28.5802036,0 77.1882115,28.5842036,0 77.1842115,28.5842036,0 77.1842115,28.5802036,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sewa Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 910356522</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2256886,28.576954800000003,0 77.22968859999999,28.576954800000003,0 77.22968859999999,28.5809548,0 77.2256886,28.5809548,0 77.2256886,28.576954800000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Okhla</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 910356583</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2636232,28.5574753,0 77.26762319999999,28.5574753,0 77.26762319999999,28.561475299999998,0 77.2636232,28.561475299999998,0 77.2636232,28.5574753,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Subzimandi</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 913081055</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1984935,28.6665068,0 77.20249349999999,28.6665068,0 77.20249349999999,28.6705068,0 77.1984935,28.6705068,0 77.1984935,28.6665068,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Delhi Junction</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 913095905</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.22564940000001,28.658932,0 77.2296494,28.658932,0 77.2296494,28.662931999999998,0 77.22564940000001,28.662931999999998,0 77.22564940000001,28.658932,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>GTB Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 913485885</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2043998,28.6961333,0 77.2083998,28.6961333,0 77.2083998,28.700133299999997,0 77.2043998,28.700133299999997,0 77.2043998,28.6961333,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Delhi Azadpur</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 913486329</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1750629,28.7015041,0 77.17906289999999,28.7015041,0 77.17906289999999,28.7055041,0 77.1750629,28.7055041,0 77.1750629,28.7015041,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dayabasti</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 914644353</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.16919,28.6651217,0 77.17318999999999,28.6651217,0 77.17318999999999,28.669121699999998,0 77.16919,28.669121699999998,0 77.16919,28.6651217,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Patel Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 914644362</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.15495700000001,28.6578088,0 77.158957,28.6578088,0 77.158957,28.6618088,0 77.15495700000001,28.6618088,0 77.15495700000001,28.6578088,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Delhi Sarai Rohilla</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 915407469</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.18325610000001,28.6607515,0 77.1872561,28.6607515,0 77.1872561,28.664751499999998,0 77.18325610000001,28.664751499999998,0 77.18325610000001,28.6607515,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Adarsh Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 920882336</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.16528840000001,28.7124008,0 77.1692884,28.7124008,0 77.1692884,28.7164008,0 77.16528840000001,28.7164008,0 77.16528840000001,28.7124008,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>IGI Airport</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 927873494</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0846995,28.5544626,0 77.08869949999999,28.5544626,0 77.08869949999999,28.5584626,0 77.0846995,28.5584626,0 77.0846995,28.5544626,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Kalkaji Mandir</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 927873510</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.25709,28.5474785,0 77.26109,28.5474785,0 77.26109,28.551478499999998,0 77.25709,28.551478499999998,0 77.25709,28.5474785,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dhaula Kuan</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 927873513</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1597158,28.589871900000002,0 77.16371579999999,28.589871900000002,0 77.16371579999999,28.5938719,0 77.1597158,28.5938719,0 77.1597158,28.589871900000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>New Delhi Airport Express Terminal</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 938409545</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2211116,28.6404786,0 77.22511159999999,28.6404786,0 77.22511159999999,28.6444786,0 77.2211116,28.6444786,0 77.2211116,28.6404786,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Palam</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 940975619</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0904713,28.583353000000002,0 77.0944713,28.583353000000002,0 77.0944713,28.587353,0 77.0904713,28.587353,0 77.0904713,28.583353000000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Bijwasan</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 941132747</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.04928890000001,28.5349587,0 77.0532889,28.5349587,0 77.0532889,28.5389587,0 77.04928890000001,28.5389587,0 77.04928890000001,28.5349587,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Anand Vihar Terminal</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 944845341</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3135003,28.6468509,0 77.31750029999999,28.6468509,0 77.31750029999999,28.6508509,0 77.3135003,28.6508509,0 77.3135003,28.6468509,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Faridabad</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1572649890</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3050774,28.4087617,0 77.30907739999999,28.4087617,0 77.30907739999999,28.412761699999997,0 77.3050774,28.412761699999997,0 77.3050774,28.4087617,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noli</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1665773472</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3076295,28.742326900000002,0 77.3116295,28.742326900000002,0 77.3116295,28.7463269,0 77.3076295,28.7463269,0 77.3076295,28.742326900000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Gurgaon</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1774430929</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0091934,28.4871009,0 77.01319339999999,28.4871009,0 77.01319339999999,28.4911009,0 77.0091934,28.4911009,0 77.0091934,28.4871009,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Kirti Nagar (Green Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1824659702</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1493605,28.6525409,0 77.15336049999999,28.6525409,0 77.15336049999999,28.6565409,0 77.1493605,28.6565409,0 77.1493605,28.6525409,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Satguru Ramsingh Marg</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1824659742</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1557026,28.660053100000003,0 77.15970259999999,28.660053100000003,0 77.15970259999999,28.6640531,0 77.1557026,28.6640531,0 77.1557026,28.660053100000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shakurbasti</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1825425942</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.12556790000001,28.6794073,0 77.1295679,28.6794073,0 77.1295679,28.6834073,0 77.12556790000001,28.6834073,0 77.12556790000001,28.6794073,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Tughlakabad</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1835677720</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2950508,28.501442100000002,0 77.29905079999999,28.501442100000002,0 77.29905079999999,28.5054421,0 77.2950508,28.5054421,0 77.2950508,28.501442100000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Brar Square</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988513576</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1385102,28.6117142,0 77.14251019999999,28.6117142,0 77.14251019999999,28.6157142,0 77.1385102,28.6157142,0 77.1385102,28.6117142,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Delhi Kishanganj</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988513580</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1959077,28.6607442,0 77.1999077,28.6607442,0 77.1999077,28.664744199999998,0 77.1959077,28.664744199999998,0 77.1959077,28.6607442,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Lajpat Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988513581</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2420352,28.5772815,0 77.2460352,28.5772815,0 77.2460352,28.5812815,0 77.2420352,28.5812815,0 77.2420352,28.5772815,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Lodhi Colony</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988513582</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.21487280000001,28.577753700000002,0 77.2188728,28.577753700000002,0 77.2188728,28.5817537,0 77.21487280000001,28.5817537,0 77.21487280000001,28.577753700000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Pragati Maidan</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988513583</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2452109,28.6140392,0 77.2492109,28.6140392,0 77.2492109,28.6180392,0 77.2452109,28.6180392,0 77.2452109,28.6140392,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sarojini Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988513597</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1943127,28.5792101,0 77.19831269999999,28.5792101,0 77.19831269999999,28.5832101,0 77.1943127,28.5832101,0 77.1943127,28.5792101,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shivaji Bridge</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988513598</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.22466820000001,28.6314521,0 77.2286682,28.6314521,0 77.2286682,28.6354521,0 77.22466820000001,28.6354521,0 77.22466820000001,28.6314521,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Tilak Bridge</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988513599</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2358914,28.626027800000003,0 77.23989139999999,28.626027800000003,0 77.23989139999999,28.6300278,0 77.2358914,28.6300278,0 77.2358914,28.626027800000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Vivekanand Puri</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988513600</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1818135,28.6624729,0 77.1858135,28.6624729,0 77.1858135,28.6664729,0 77.1818135,28.6664729,0 77.1818135,28.6624729,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Hazrat Nizamuddin Junction</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988585233</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2515202,28.5869646,0 77.25552019999999,28.5869646,0 77.25552019999999,28.5909646,0 77.2515202,28.5909646,0 77.2515202,28.5869646,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Rohini West</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988598418</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.11338500000001,28.712956900000002,0 77.117385,28.712956900000002,0 77.117385,28.7169569,0 77.11338500000001,28.7169569,0 77.11338500000001,28.712956900000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Belvedere Towers</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988848864</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0861318,28.4897023,0 77.0901318,28.4897023,0 77.0901318,28.4937023,0 77.0861318,28.4937023,0 77.0861318,28.4897023,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>DLF Phase 2</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988848882</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.09099090000001,28.485559600000002,0 77.0949909,28.485559600000002,0 77.0949909,28.4895596,0 77.09099090000001,28.4895596,0 77.09099090000001,28.485559600000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sikanderpur RMRG Station</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 1988848900</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.09243670000001,28.478996900000002,0 77.0964367,28.478996900000002,0 77.0964367,28.4829969,0 77.09243670000001,28.4829969,0 77.09243670000001,28.478996900000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Garhi Harsaru Junction</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2410174120</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.9287249,28.4362985,0 76.9327249,28.4362985,0 76.9327249,28.440298499999997,0 76.9287249,28.440298499999997,0 76.9287249,28.4362985,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Cyber City</name>
+        <description>Type: Railway Infrastructure | Priority: MEDIUM | Source: OSM (node) | ID: 2511127144</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0871604,28.4960613,0 77.09116039999999,28.4960613,0 77.09116039999999,28.5000613,0 77.0871604,28.5000613,0 77.0871604,28.4960613,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Moulsari Avenue Station</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2533456421</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0926306,28.498777500000003,0 77.0966306,28.498777500000003,0 77.0966306,28.5027775,0 77.0926306,28.5027775,0 77.0926306,28.498777500000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Phase 3 Station</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2533456422</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.091661,28.4915677,0 77.09566099999999,28.4915677,0 77.09566099999999,28.4955677,0 77.091661,28.4955677,0 77.091661,28.4915677,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dhansa Bus Stand</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2579042823</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.97652640000001,28.6099086,0 76.9805264,28.6099086,0 76.9805264,28.6139086,0 76.97652640000001,28.6139086,0 76.97652640000001,28.6099086,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Hauz Khas (Magenta Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2832938172</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2030447,28.5413691,0 77.2070447,28.5413691,0 77.2070447,28.5453691,0 77.2030447,28.5453691,0 77.2030447,28.5413691,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Munirka</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2832938185</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.17305920000001,28.5548967,0 77.1770592,28.5548967,0 77.1770592,28.5588967,0 77.17305920000001,28.5588967,0 77.17305920000001,28.5548967,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sukhdev Vihar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2832938187</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.27290040000001,28.5577477,0 77.2769004,28.5577477,0 77.2769004,28.561747699999998,0 77.27290040000001,28.561747699999998,0 77.27290040000001,28.5577477,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Vasant Vihar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2832938196</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1591168,28.555827,0 77.1631168,28.555827,0 77.1631168,28.559827,0 77.1591168,28.559827,0 77.1591168,28.555827,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shankar Vihar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2832938301</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.13828140000001,28.5588462,0 77.1422814,28.5588462,0 77.1422814,28.5628462,0 77.13828140000001,28.5628462,0 77.13828140000001,28.5588462,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sadar Bazar Cantonment</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2832938307</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1091279,28.5751145,0 77.1131279,28.5751145,0 77.1131279,28.5791145,0 77.1091279,28.5791145,0 77.1091279,28.5751145,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Palam</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2832938323</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0810764,28.586910200000002,0 77.08507639999999,28.586910200000002,0 77.08507639999999,28.5909102,0 77.0810764,28.5909102,0 77.0810764,28.586910200000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dashrath Puri</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2832938324</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0803751,28.59985,0 77.08437509999999,28.59985,0 77.08437509999999,28.603849999999998,0 77.0803751,28.603849999999998,0 77.0803751,28.59985,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Janakpuri West</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2832938329</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.07594920000001,28.626947100000002,0 77.0799492,28.626947100000002,0 77.0799492,28.6309471,0 77.07594920000001,28.6309471,0 77.07594920000001,28.626947100000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Okhla Bird Sanctuary</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2833058715</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.319595,28.5509418,0 77.323595,28.5509418,0 77.323595,28.554941799999998,0 77.319595,28.554941799999998,0 77.319595,28.5509418,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Greater Kailash</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2833058716</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.23649250000001,28.5399077,0 77.2404925,28.5399077,0 77.2404925,28.5439077,0 77.23649250000001,28.5439077,0 77.23649250000001,28.5399077,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Kalindi Kunj</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2833058718</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3081107,28.540916000000003,0 77.31211069999999,28.540916000000003,0 77.31211069999999,28.544916,0 77.3081107,28.544916,0 77.3081107,28.540916000000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Kalkaji Mandir</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2833058719</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2549441,28.5483522,0 77.2589441,28.5483522,0 77.2589441,28.552352199999998,0 77.2549441,28.552352199999998,0 77.2549441,28.5483522,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Okhla Vihar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2833058720</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2899304,28.559300200000003,0 77.2939304,28.559300200000003,0 77.2939304,28.5633002,0 77.2899304,28.5633002,0 77.2899304,28.559300200000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Panchsheel Park</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2833058721</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2190916,28.5403747,0 77.22309159999999,28.5403747,0 77.22309159999999,28.5443747,0 77.2190916,28.5443747,0 77.2190916,28.5403747,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>R. K. Puram</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2833058722</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1835231,28.5483805,0 77.18752309999999,28.5483805,0 77.18752309999999,28.552380499999998,0 77.1835231,28.552380499999998,0 77.1835231,28.5483805,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Jasola Vihar Shaheen Bagh</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2833058723</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.29465780000001,28.5438279,0 77.2986578,28.5438279,0 77.2986578,28.547827899999998,0 77.29465780000001,28.547827899999998,0 77.29465780000001,28.5438279,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Botanical Garden</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2833058750</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3318373,28.5619051,0 77.3358373,28.5619051,0 77.3358373,28.5659051,0 77.3318373,28.5659051,0 77.3318373,28.5619051,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Terminal 1 IGI Airport</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2833058753</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1206566,28.562835,0 77.1246566,28.562835,0 77.1246566,28.566834999999998,0 77.1206566,28.566834999999998,0 77.1206566,28.562835,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Trilokpuri Sanjay Lake</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2833531907</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3068549,28.611453,0 77.3108549,28.611453,0 77.3108549,28.615453,0 77.3068549,28.615453,0 77.3068549,28.611453,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Anand Vihar (Blue Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2833971686</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3138749,28.644833600000002,0 77.31787489999999,28.644833600000002,0 77.31787489999999,28.6488336,0 77.3138749,28.6488336,0 77.3138749,28.644833600000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Karkarduma (Pink Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2833971689</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.30406860000001,28.6473434,0 77.3080686,28.6473434,0 77.3080686,28.6513434,0 77.30406860000001,28.6513434,0 77.30406860000001,28.6473434,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Samaypur Badli</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2837147019</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1362701,28.7426411,0 77.1402701,28.7426411,0 77.1402701,28.746641099999998,0 77.1362701,28.746641099999998,0 77.1362701,28.7426411,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Rohini Sector 18, 19</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 2837147020</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1378526,28.7363795,0 77.14185259999999,28.7363795,0 77.14185259999999,28.7403795,0 77.1378526,28.7403795,0 77.1378526,28.7363795,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sector 54 Chowk</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 3181132316</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1028971,28.4309768,0 77.1068971,28.4309768,0 77.1068971,28.434976799999998,0 77.1028971,28.434976799999998,0 77.1028971,28.4309768,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sector 53-54</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 3181132336</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0984632,28.4443829,0 77.10246319999999,28.4443829,0 77.10246319999999,28.4483829,0 77.0984632,28.4483829,0 77.0984632,28.4443829,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sector 42-43</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 3181132346</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.09495290000001,28.455425400000003,0 77.0989529,28.455425400000003,0 77.0989529,28.4594254,0 77.09495290000001,28.4594254,0 77.09495290000001,28.455425400000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Jamia Millia Islamia</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 3284155408</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2843387,28.561048800000002,0 77.2883387,28.561048800000002,0 77.2883387,28.5650488,0 77.2843387,28.5650488,0 77.2843387,28.561048800000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Farrukhnagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 3735985541</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.8233658,28.465225,0 76.8273658,28.465225,0 76.8273658,28.469224999999998,0 76.8233658,28.469224999999998,0 76.8233658,28.465225,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shahabad Mohammadpur</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 3736001861</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0695537,28.558325800000002,0 77.07355369999999,28.558325800000002,0 77.07355369999999,28.5623258,0 77.0695537,28.5623258,0 77.0695537,28.558325800000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Chirag Delhi</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 3832323219</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.22831640000001,28.5391108,0 77.2323164,28.5391108,0 77.2323164,28.543110799999997,0 77.22831640000001,28.543110799999997,0 77.22831640000001,28.5391108,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>DLF Phase 1</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 3953773571</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.09196060000001,28.4694258,0 77.0959606,28.4694258,0 77.0959606,28.473425799999998,0 77.09196060000001,28.473425799999998,0 77.09196060000001,28.4694258,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sector 55–56</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 3953773598</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1031327,28.421355600000002,0 77.1071327,28.421355600000002,0 77.1071327,28.4253556,0 77.1031327,28.4253556,0 77.1031327,28.421355600000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Sector 83</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 4267913896</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.39444560000001,28.5202688,0 77.3984456,28.5202688,0 77.3984456,28.524268799999998,0 77.39444560000001,28.524268799999998,0 77.39444560000001,28.5202688,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>IP Extension</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 4676900918</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.308718,28.6299032,0 77.31271799999999,28.6299032,0 77.31271799999999,28.6339032,0 77.308718,28.6339032,0 77.308718,28.6299032,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Karkarduma Court</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 4676900919</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.29378770000001,28.6516001,0 77.2977877,28.6516001,0 77.2977877,28.655600099999997,0 77.29378770000001,28.655600099999997,0 77.29378770000001,28.6516001,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>East Vinod Nagar - Mayur Vihar - II</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 4676900933</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3034069,28.6180437,0 77.30740689999999,28.6180437,0 77.30740689999999,28.6220437,0 77.3034069,28.6220437,0 77.3034069,28.6180437,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Mandawali - West Vinod Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 4676901224</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3024525,28.622979,0 77.30645249999999,28.622979,0 77.30645249999999,28.626979,0 77.3024525,28.626979,0 77.3024525,28.622979,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>NSEZ</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 4849443432</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3927544,28.530404100000002,0 77.39675439999999,28.530404100000002,0 77.39675439999999,28.5344041,0 77.3927544,28.5344041,0 77.3927544,28.530404100000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Sector 101</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 4950920120</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3829489,28.554048100000003,0 77.3869489,28.554048100000003,0 77.3869489,28.5580481,0 77.3829489,28.5580481,0 77.3829489,28.554048100000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Sector 51</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 4950923222</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3732593,28.5837189,0 77.37725929999999,28.5837189,0 77.37725929999999,28.5877189,0 77.3732593,28.5877189,0 77.3732593,28.5837189,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Sector 76</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 4950923223</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3776581,28.563330500000003,0 77.3816581,28.563330500000003,0 77.3816581,28.5673305,0 77.3776581,28.5673305,0 77.3776581,28.563330500000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Sector 81</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 4950923224</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3879489,28.547299300000002,0 77.39194889999999,28.547299300000002,0 77.39194889999999,28.5512993,0 77.3879489,28.5512993,0 77.3879489,28.547299300000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Burari X-ing</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 5215706767</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1975697,28.727828600000002,0 77.2015697,28.727828600000002,0 77.2015697,28.7318286,0 77.1975697,28.7318286,0 77.1975697,28.727828600000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Jagatpur Village</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 5215706768</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.221995,28.719116200000002,0 77.225995,28.719116200000002,0 77.225995,28.7231162,0 77.221995,28.7231162,0 77.221995,28.719116200000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Khajoorikhas</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 5215706769</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.25040680000001,28.7037735,0 77.2544068,28.7037735,0 77.2544068,28.7077735,0 77.25040680000001,28.7077735,0 77.25040680000001,28.7037735,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Surghat</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 5215706793</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.22545260000001,28.708222300000003,0 77.2294526,28.708222300000003,0 77.2294526,28.7122223,0 77.22545260000001,28.7122223,0 77.22545260000001,28.708222300000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Haiderpur Badli Mor</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 5397665618</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1471044,28.7279398,0 77.1511044,28.7279398,0 77.1511044,28.7319398,0 77.1471044,28.7319398,0 77.1471044,28.7279398,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Central Secretariat</name>
+        <description>Type: Railway Infrastructure | Priority: HIGH | Source: OSM (node) | ID: 5453646586</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.21028220000001,28.613879400000002,0 77.2142822,28.613879400000002,0 77.2142822,28.6178794,0 77.21028220000001,28.6178794,0 77.21028220000001,28.613879400000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Basai Dhankot</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 5698863055</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.98081710000001,28.4625841,0 76.9848171,28.4625841,0 76.9848171,28.4665841,0 76.98081710000001,28.4665841,0 76.98081710000001,28.4625841,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Ghevra</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 5737166729</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.9957711,28.6893435,0 76.99977109999999,28.6893435,0 76.99977109999999,28.693343499999997,0 76.9957711,28.693343499999997,0 76.9957711,28.6893435,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Bahadurgarh</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 5737166743</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.92835690000001,28.6992243,0 76.9323569,28.6992243,0 76.9323569,28.7032243,0 76.92835690000001,28.7032243,0 76.92835690000001,28.6992243,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Nangloi</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 5737166756</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0553608,28.684281300000002,0 77.0593608,28.684281300000002,0 77.0593608,28.6882813,0 77.0553608,28.6882813,0 77.0553608,28.684281300000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dwarka Sector 11</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 5737168025</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0474433,28.584443,0 77.05144329999999,28.584443,0 77.05144329999999,28.588442999999998,0 77.0474433,28.588442999999998,0 77.0474433,28.584443,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Rajendra Place</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 5781445033</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.17627560000001,28.6404955,0 77.1802756,28.6404955,0 77.1802756,28.644495499999998,0 77.17627560000001,28.644495499999998,0 77.17627560000001,28.6404955,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Nehru Enclave</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 5795235047</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2495057,28.5440584,0 77.25350569999999,28.5440584,0 77.25350569999999,28.5480584,0 77.2495057,28.5480584,0 77.2495057,28.5440584,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sadar Bazar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 5854161857</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2150087,28.656087,0 77.21900869999999,28.656087,0 77.21900869999999,28.660086999999997,0 77.2150087,28.660086999999997,0 77.2150087,28.656087,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shiv Vihar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6049373291</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2874599,28.719381000000002,0 77.29145989999999,28.719381000000002,0 77.29145989999999,28.723381,0 77.2874599,28.723381,0 77.2874599,28.719381000000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Johri Enclave</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6049373292</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.28812930000001,28.7108806,0 77.2921293,28.7108806,0 77.2921293,28.714880599999997,0 77.28812930000001,28.714880599999997,0 77.28812930000001,28.7108806,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Gokulpuri</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6049373293</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2841253,28.7004752,0 77.28812529999999,28.7004752,0 77.28812529999999,28.704475199999997,0 77.2841253,28.704475199999997,0 77.2841253,28.7004752,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Maujpur-Babarpur</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6049373294</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2776973,28.6900781,0 77.28169729999999,28.6900781,0 77.28169729999999,28.6940781,0 77.2776973,28.6940781,0 77.2776973,28.6900781,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Jaffrabad</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6049373295</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2728055,28.6806822,0 77.2768055,28.6806822,0 77.2768055,28.684682199999997,0 77.2728055,28.684682199999997,0 77.2728055,28.6806822,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Welcome (Pink Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6049373296</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.27502390000001,28.6704018,0 77.2790239,28.6704018,0 77.2790239,28.6744018,0 77.27502390000001,28.6744018,0 77.27502390000001,28.6704018,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>East Azad Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6049373297</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.28284310000001,28.662676400000002,0 77.2868431,28.662676400000002,0 77.2868431,28.6666764,0 77.28284310000001,28.6666764,0 77.28284310000001,28.662676400000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Krishna Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6049373298</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2881199,28.655812700000002,0 77.29211989999999,28.655812700000002,0 77.29211989999999,28.6598127,0 77.2881199,28.6598127,0 77.2881199,28.655812700000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>New Delhi</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6131069513</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.21974990000001,28.6399258,0 77.2237499,28.6399258,0 77.2237499,28.643925799999998,0 77.21974990000001,28.643925799999998,0 77.21974990000001,28.6399258,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Saket</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6179179025</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.20022370000001,28.519168,0 77.2042237,28.519168,0 77.2042237,28.523168,0 77.20022370000001,28.523168,0 77.20022370000001,28.519168,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Majlis Park</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6196100475</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.179964,28.722431200000003,0 77.18396399999999,28.722431200000003,0 77.18396399999999,28.7264312,0 77.179964,28.7264312,0 77.179964,28.722431200000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Vinobapuri</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6196100477</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2472973,28.563871000000002,0 77.25129729999999,28.563871000000002,0 77.25129729999999,28.567871,0 77.2472973,28.567871,0 77.2472973,28.563871000000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Mayur Vihar - I (Pink Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6196100478</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.28893190000001,28.6016425,0 77.2929319,28.6016425,0 77.2929319,28.6056425,0 77.28893190000001,28.6056425,0 77.28893190000001,28.6016425,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Mayur Vihar Pocket 1</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6196100479</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2967023,28.603861900000002,0 77.3007023,28.603861900000002,0 77.3007023,28.6078619,0 77.2967023,28.6078619,0 77.2967023,28.603861900000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sarai Kale Khan - Nizamuddin</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6196100480</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.25524940000001,28.586749400000002,0 77.2592494,28.586749400000002,0 77.2592494,28.5907494,0 77.25524940000001,28.5907494,0 77.25524940000001,28.586749400000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Ashram</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6196100481</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2565979,28.570423100000003,0 77.2605979,28.570423100000003,0 77.2605979,28.5744231,0 77.2565979,28.5744231,0 77.2565979,28.570423100000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Asaudah</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6290617350</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.8577082,28.7347594,0 76.8617082,28.7347594,0 76.8617082,28.7387594,0 76.8577082,28.7387594,0 76.8577082,28.7347594,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Nasirpur</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6388555278</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1056284,28.6008727,0 77.10962839999999,28.6008727,0 77.10962839999999,28.604872699999998,0 77.1056284,28.604872699999998,0 77.1056284,28.6008727,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Patli</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6388592702</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.855079,28.3990774,0 76.859079,28.3990774,0 76.859079,28.403077399999997,0 76.855079,28.403077399999997,0 76.855079,28.3990774,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Arthala</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6397652315</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.38989190000001,28.674999,0 77.3938919,28.674999,0 77.3938919,28.678998999999997,0 77.38989190000001,28.678998999999997,0 77.38989190000001,28.674999,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shaheed Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6397652316</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3319154,28.6746619,0 77.33591539999999,28.6746619,0 77.33591539999999,28.678661899999998,0 77.3319154,28.678661899999998,0 77.3319154,28.6746619,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Mohan Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6397652318</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3820026,28.676537200000002,0 77.3860026,28.676537200000002,0 77.3860026,28.6805372,0 77.3820026,28.6805372,0 77.3820026,28.676537200000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shyam Park</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6397652319</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3686454,28.6762281,0 77.3726454,28.6762281,0 77.3726454,28.680228099999997,0 77.3686454,28.680228099999997,0 77.3686454,28.6762281,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Major Mohit Sharma Rajendra Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: HIGH | Source: OSM (node) | ID: 6397652320</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3561426,28.675611200000002,0 77.36014259999999,28.675611200000002,0 77.36014259999999,28.6796112,0 77.3561426,28.6796112,0 77.3561426,28.675611200000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Raj Bagh</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6397652321</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3448279,28.6750876,0 77.34882789999999,28.6750876,0 77.34882789999999,28.6790876,0 77.3448279,28.6790876,0 77.3448279,28.6750876,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sir M. Vishweshwaraiah Moti Bagh</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6453544485</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.173741,28.5765326,0 77.177741,28.5765326,0 77.177741,28.580532599999998,0 77.173741,28.580532599999998,0 77.173741,28.5765326,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Bhikaji Cama Place</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6453544486</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1858709,28.568261800000002,0 77.18987089999999,28.568261800000002,0 77.18987089999999,28.5722618,0 77.1858709,28.5722618,0 77.1858709,28.568261800000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dilli Haat - INA (Pink Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6453544487</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2055857,28.5716524,0 77.20958569999999,28.5716524,0 77.20958569999999,28.5756524,0 77.2055857,28.5756524,0 77.2055857,28.5716524,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Lajpat Nagar (Pink Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6453544488</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2365055,28.56758,0 77.2405055,28.56758,0 77.2405055,28.571579999999997,0 77.2365055,28.571579999999997,0 77.2365055,28.56758,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>South Extension</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6453544489</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.21856770000001,28.566566400000003,0 77.2225677,28.566566400000003,0 77.2225677,28.5705664,0 77.21856770000001,28.5705664,0 77.21856770000001,28.566566400000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Mayapuri</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6453544492</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1277333,28.6351795,0 77.1317333,28.6351795,0 77.1317333,28.639179499999997,0 77.1277333,28.639179499999997,0 77.1277333,28.6351795,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Rajouri Garden (Pink Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6453992648</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1222597,28.6491896,0 77.12625969999999,28.6491896,0 77.12625969999999,28.653189599999997,0 77.1222597,28.653189599999997,0 77.1222597,28.6491896,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Rajouri Garden (Blue Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6453992649</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1207198,28.647056300000003,0 77.1247198,28.647056300000003,0 77.1247198,28.6510563,0 77.1207198,28.6510563,0 77.1207198,28.647056300000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Netaji Subhash Place (Pink Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6453992650</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1522607,28.692714600000002,0 77.15626069999999,28.692714600000002,0 77.15626069999999,28.6967146,0 77.1522607,28.6967146,0 77.1522607,28.692714600000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Azadpur (Pink Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6453992651</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1799488,28.7037821,0 77.1839488,28.7037821,0 77.1839488,28.7077821,0 77.1799488,28.7077821,0 77.1799488,28.7037821,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Azadpur (Yellow Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6453992652</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1783722,28.7050448,0 77.18237219999999,28.7050448,0 77.18237219999999,28.709044799999997,0 77.1783722,28.709044799999997,0 77.1783722,28.7050448,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dilli Haat - INA (Yellow Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6453992653</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2073017,28.572176900000002,0 77.21130169999999,28.572176900000002,0 77.21130169999999,28.5761769,0 77.2073017,28.5761769,0 77.2073017,28.572176900000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Lajpat Nagar (Violet Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6453992654</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2344011,28.5685968,0 77.23840109999999,28.5685968,0 77.23840109999999,28.5725968,0 77.2344011,28.5725968,0 77.2344011,28.5685968,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Anand Vihar (Pink Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6454015469</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3135317,28.644615700000003,0 77.31753169999999,28.644615700000003,0 77.31753169999999,28.6486157,0 77.3135317,28.6486157,0 77.3135317,28.644615700000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Karkarduma (Blue Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6458130120</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.30351780000001,28.6463176,0 77.3075178,28.6463176,0 77.3075178,28.650317599999997,0 77.30351780000001,28.650317599999997,0 77.30351780000001,28.6463176,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Delhi Cantt</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6458165644</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1384187,28.6066201,0 77.1424187,28.6066201,0 77.1424187,28.6106201,0 77.1384187,28.6106201,0 77.1384187,28.6066201,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shalimar Bagh</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6458202840</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1634317,28.699957400000002,0 77.1674317,28.699957400000002,0 77.1674317,28.7039574,0 77.1634317,28.7039574,0 77.1634317,28.699957400000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shakurpur</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6458202841</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.14760940000001,28.6837668,0 77.1516094,28.6837668,0 77.1516094,28.6877668,0 77.14760940000001,28.6877668,0 77.14760940000001,28.6837668,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sarojini Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6458202842</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1960786,28.573817000000002,0 77.2000786,28.573817000000002,0 77.2000786,28.577817,0 77.1960786,28.577817,0 77.1960786,28.573817000000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Punjabi Bagh West</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6458202843</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.13719760000001,28.670767100000003,0 77.1411976,28.670767100000003,0 77.1411976,28.6747671,0 77.13719760000001,28.6747671,0 77.13719760000001,28.670767100000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Naraina Vihar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6458202844</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1344438,28.6223852,0 77.13844379999999,28.6223852,0 77.13844379999999,28.626385199999998,0 77.1344438,28.626385199999998,0 77.1344438,28.6223852,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>ESI - Basaidarapur</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6458202845</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1252678,28.6560737,0 77.1292678,28.6560737,0 77.1292678,28.660073699999998,0 77.1252678,28.660073699999998,0 77.1252678,28.6560737,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Inderlok (Green Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991434</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1671872,28.670706600000003,0 77.17118719999999,28.670706600000003,0 77.17118719999999,28.6747066,0 77.1671872,28.6747066,0 77.1671872,28.670706600000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Ashok Park Main</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991435</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.15329100000001,28.669604500000002,0 77.157291,28.669604500000002,0 77.157291,28.6736045,0 77.15329100000001,28.6736045,0 77.15329100000001,28.669604500000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Punjabi Bagh</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991436</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.14412390000001,28.670995,0 77.1481239,28.670995,0 77.1481239,28.674995,0 77.14412390000001,28.674995,0 77.14412390000001,28.670995,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Shivaji Park</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991437</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1284722,28.673031700000003,0 77.1324722,28.673031700000003,0 77.1324722,28.6770317,0 77.1284722,28.6770317,0 77.1284722,28.673031700000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Madipur</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991438</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.11735990000001,28.6744752,0 77.1213599,28.6744752,0 77.1213599,28.678475199999998,0 77.11735990000001,28.678475199999998,0 77.11735990000001,28.6744752,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Paschim Vihar East</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991439</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.11028230000001,28.6753563,0 77.1142823,28.6753563,0 77.1142823,28.6793563,0 77.11028230000001,28.6793563,0 77.11028230000001,28.6753563,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Peera Garhi</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991441</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0906793,28.677807400000003,0 77.0946793,28.677807400000003,0 77.0946793,28.6818074,0 77.0906793,28.6818074,0 77.0906793,28.677807400000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Udyog Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991442</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.07884920000001,28.679103,0 77.0828492,28.679103,0 77.0828492,28.683103,0 77.07884920000001,28.683103,0 77.07884920000001,28.679103,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Surajmal Stadium</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991443</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.072,28.6798775,0 77.076,28.6798775,0 77.076,28.683877499999998,0 77.072,28.683877499999998,0 77.072,28.6798775,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Nangloi</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991444</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0627319,28.6804007,0 77.0667319,28.6804007,0 77.0667319,28.684400699999998,0 77.0627319,28.684400699999998,0 77.0627319,28.6804007,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Nangloi Railway Station</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991445</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0542463,28.680200900000003,0 77.0582463,28.680200900000003,0 77.0582463,28.6842009,0 77.0542463,28.6842009,0 77.0542463,28.680200900000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Rajdhani Park</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991446</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0419437,28.680308500000002,0 77.0459437,28.680308500000002,0 77.0459437,28.6843085,0 77.0419437,28.6843085,0 77.0419437,28.680308500000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Mundka</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991447</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0285741,28.6804341,0 77.03257409999999,28.6804341,0 77.03257409999999,28.684434099999997,0 77.0285741,28.684434099999997,0 77.0285741,28.6804341,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Mundka Industrial Area</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991448</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.01514850000001,28.681370100000002,0 77.0191485,28.681370100000002,0 77.0191485,28.6853701,0 77.01514850000001,28.6853701,0 77.01514850000001,28.681370100000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Ghevra</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991449</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.9941591,28.6832384,0 76.9981591,28.6832384,0 76.9981591,28.6872384,0 76.9941591,28.6872384,0 76.9941591,28.6832384,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Tikri Kalan</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991450</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.97520820000001,28.6848849,0 76.9792082,28.6848849,0 76.9792082,28.688884899999998,0 76.97520820000001,28.688884899999998,0 76.97520820000001,28.6848849,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Tikri Border</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6465991451</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.9620828,28.686025400000002,0 76.9660828,28.686025400000002,0 76.9660828,28.6900254,0 76.9620828,28.6900254,0 76.9620828,28.686025400000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Pandit Shree Ram Sharma</name>
+        <description>Type: Railway Infrastructure | Priority: MEDIUM | Source: OSM (node) | ID: 6465991452</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.9491988,28.687281000000002,0 76.9531988,28.687281000000002,0 76.9531988,28.691281,0 76.9491988,28.691281,0 76.9491988,28.687281000000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Bahadurgarh City</name>
+        <description>Type: Railway Infrastructure | Priority: MEDIUM | Source: OSM (node) | ID: 6465991453</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.9334807,28.688778300000003,0 76.9374807,28.688778300000003,0 76.9374807,28.6927783,0 76.9334807,28.6927783,0 76.9334807,28.688778300000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Brigadier Hoshiyar Singh</name>
+        <description>Type: Railway Infrastructure | Priority: MEDIUM | Source: OSM (node) | ID: 6465991454</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.9172027,28.6954603,0 76.9212027,28.6954603,0 76.9212027,28.6994603,0 76.9172027,28.6994603,0 76.9172027,28.6954603,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>IIT Delhi</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6485904396</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.19255460000001,28.5450121,0 77.1965546,28.5450121,0 77.1965546,28.5490121,0 77.19255460000001,28.5490121,0 77.19255460000001,28.5450121,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Indraprastha</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6537193575</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.247551,28.6186019,0 77.25155099999999,28.6186019,0 77.25155099999999,28.6226019,0 77.247551,28.6226019,0 77.247551,28.6186019,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Yamuna Bank</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6537193576</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.266013,28.6213124,0 77.27001299999999,28.6213124,0 77.27001299999999,28.6253124,0 77.266013,28.6253124,0 77.266013,28.6213124,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>New Ashok Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6537196022</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2995085,28.5870885,0 77.30350849999999,28.5870885,0 77.30350849999999,28.591088499999998,0 77.2995085,28.591088499999998,0 77.2995085,28.5870885,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida City Centre</name>
+        <description>Type: Railway Infrastructure | Priority: MEDIUM | Source: OSM (node) | ID: 6537260850</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.35416380000001,28.5727334,0 77.3581638,28.5727334,0 77.3581638,28.5767334,0 77.35416380000001,28.5767334,0 77.35416380000001,28.5727334,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Golf Course</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6537268384</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3443247,28.565375500000002,0 77.34832469999999,28.565375500000002,0 77.34832469999999,28.5693755,0 77.3443247,28.5693755,0 77.3443247,28.565375500000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Botanical Garden</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6537285485</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.33239950000001,28.5619434,0 77.3363995,28.5619434,0 77.3363995,28.5659434,0 77.33239950000001,28.5659434,0 77.33239950000001,28.5619434,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Sector 18</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6537285486</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3240756,28.568758300000002,0 77.32807559999999,28.568758300000002,0 77.32807559999999,28.5727583,0 77.3240756,28.5727583,0 77.3240756,28.568758300000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Sector 16</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6537285487</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3157778,28.576081000000002,0 77.3197778,28.576081000000002,0 77.3197778,28.580081,0 77.3157778,28.580081,0 77.3157778,28.576081000000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Sector 15</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6537285488</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3096118,28.5828835,0 77.31361179999999,28.5828835,0 77.31361179999999,28.5868835,0 77.3096118,28.5868835,0 77.3096118,28.5828835,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Mayur Vihar - I (Blue Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539745133</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2875398,28.602064000000002,0 77.2915398,28.602064000000002,0 77.2915398,28.606064,0 77.2875398,28.606064,0 77.2875398,28.602064000000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dwarka Sector 12</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894848</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.03873150000001,28.5902362,0 77.0427315,28.5902362,0 77.0427315,28.594236199999997,0 77.03873150000001,28.594236199999997,0 77.03873150000001,28.5902362,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Jhandewalan</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894849</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1979165,28.6423188,0 77.2019165,28.6423188,0 77.2019165,28.6463188,0 77.1979165,28.6463188,0 77.1979165,28.6423188,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Ramakrishna Ashram Marg</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894850</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.20657870000001,28.6372436,0 77.2105787,28.6372436,0 77.2105787,28.6412436,0 77.20657870000001,28.6412436,0 77.20657870000001,28.6372436,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Rajiv Chowk</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894851</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2173123,28.630706200000002,0 77.2213123,28.630706200000002,0 77.2213123,28.6347062,0 77.2173123,28.6347062,0 77.2173123,28.630706200000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Barakhambha Road</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894855</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.22300460000001,28.627767600000002,0 77.2270046,28.627767600000002,0 77.2270046,28.6317676,0 77.22300460000001,28.6317676,0 77.22300460000001,28.627767600000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Mandi House</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894856</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.23219660000001,28.6236122,0 77.2361966,28.6236122,0 77.2361966,28.627612199999998,0 77.23219660000001,28.627612199999998,0 77.23219660000001,28.6236122,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Supreme Court</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894857</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.24052780000001,28.621475200000003,0 77.2445278,28.621475200000003,0 77.2445278,28.6254752,0 77.24052780000001,28.6254752,0 77.24052780000001,28.621475200000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dwarka Sector 10</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894859</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0554996,28.5790577,0 77.0594996,28.5790577,0 77.0594996,28.583057699999998,0 77.0554996,28.583057699999998,0 77.0554996,28.5790577,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dwarka Sector 9</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894860</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0633316,28.572272,0 77.06733159999999,28.572272,0 77.06733159999999,28.576272,0 77.0633316,28.576272,0 77.0633316,28.572272,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dwarka Sector 8</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894861</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0650366,28.5636109,0 77.06903659999999,28.5636109,0 77.06903659999999,28.5676109,0 77.0650366,28.5676109,0 77.0650366,28.5636109,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dwarka Sector 21</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894862</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0565605,28.5499218,0 77.0605605,28.5499218,0 77.0605605,28.553921799999998,0 77.0565605,28.553921799999998,0 77.0565605,28.5499218,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Sector 62</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894863</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3715885,28.6149861,0 77.37558849999999,28.6149861,0 77.37558849999999,28.618986099999997,0 77.3715885,28.618986099999997,0 77.3715885,28.6149861,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Sector 59</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894864</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.37068280000001,28.6045279,0 77.3746828,28.6045279,0 77.3746828,28.6085279,0 77.37068280000001,28.6085279,0 77.37068280000001,28.6045279,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Sector 61</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894865</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.37026630000001,28.5955854,0 77.3742663,28.5955854,0 77.3742663,28.5995854,0 77.37026630000001,28.5995854,0 77.37026630000001,28.5955854,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Sector 52</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894866</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.37102370000001,28.5848739,0 77.3750237,28.5848739,0 77.3750237,28.5888739,0 77.37102370000001,28.5888739,0 77.37102370000001,28.5848739,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Sector 34</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6539894867</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3614917,28.578253800000002,0 77.36549169999999,28.578253800000002,0 77.36549169999999,28.5822538,0 77.3614917,28.5822538,0 77.3614917,28.578253800000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Noida Electronic City</name>
+        <description>Type: Railway Infrastructure | Priority: MEDIUM | Source: OSM (node) | ID: 6539894868</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.37300330000001,28.6262627,0 77.3770033,28.6262627,0 77.3770033,28.6302627,0 77.37300330000001,28.6302627,0 77.37300330000001,28.6262627,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Janakpuri West</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6541854249</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.076085,28.6275839,0 77.080085,28.6275839,0 77.080085,28.6315839,0 77.076085,28.6315839,0 77.076085,28.6275839,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Uttam Nagar East</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6541854250</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0632861,28.6228465,0 77.06728609999999,28.6228465,0 77.06728609999999,28.6268465,0 77.0632861,28.6268465,0 77.0632861,28.6228465,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Uttam Nagar West</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6541854251</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0537122,28.619757,0 77.0577122,28.619757,0 77.0577122,28.623756999999998,0 77.0537122,28.623756999999998,0 77.0537122,28.619757,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Nawada</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6541854252</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.04307870000001,28.618275800000003,0 77.0470787,28.618275800000003,0 77.0470787,28.6222758,0 77.04307870000001,28.6222758,0 77.04307870000001,28.618275800000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dwarka Mor</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6541854253</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0312792,28.61731,0 77.03527919999999,28.61731,0 77.03527919999999,28.621309999999998,0 77.0312792,28.621309999999998,0 77.0312792,28.61731,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dwarka (Grey Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6541854254</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.02043420000001,28.6138874,0 77.0244342,28.6138874,0 77.0244342,28.617887399999997,0 77.02043420000001,28.617887399999997,0 77.02043420000001,28.6138874,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dwarka (Blue Line)</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6541854255</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0207628,28.6129362,0 77.02476279999999,28.6129362,0 77.02476279999999,28.616936199999998,0 77.0207628,28.616936199999998,0 77.0207628,28.6129362,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dwarka Sector 14</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6541854256</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0239765,28.6002218,0 77.0279765,28.6002218,0 77.0279765,28.604221799999998,0 77.0239765,28.604221799999998,0 77.0239765,28.6002218,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dwarka Sector 13</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6541854257</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.03154070000001,28.595009,0 77.0355407,28.595009,0 77.0355407,28.599009,0 77.03154070000001,28.599009,0 77.03154070000001,28.595009,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Adarsh Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6547772109</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1684223,28.7145805,0 77.1724223,28.7145805,0 77.1724223,28.718580499999998,0 77.1684223,28.718580499999998,0 77.1684223,28.7145805,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Jahangirpuri</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6547772110</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.160658,28.7239717,0 77.16465799999999,28.7239717,0 77.16465799999999,28.727971699999998,0 77.160658,28.727971699999998,0 77.160658,28.7239717,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Janakpuri East</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6548798518</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.08475700000001,28.631021,0 77.088757,28.631021,0 77.088757,28.635021,0 77.08475700000001,28.635021,0 77.08475700000001,28.631021,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Tilak Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6548798519</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0944961,28.6345482,0 77.09849609999999,28.6345482,0 77.09849609999999,28.6385482,0 77.0944961,28.6385482,0 77.0944961,28.6345482,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Subhash Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6548798520</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1031815,28.6384593,0 77.1071815,28.6384593,0 77.1071815,28.6424593,0 77.1031815,28.6424593,0 77.1031815,28.6384593,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Tagore Garden</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 6548798521</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.11082,28.6417265,0 77.11482,28.6417265,0 77.11482,28.6457265,0 77.11082,28.6457265,0 77.11082,28.6417265,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Guru Dronacharya</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018301879</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1002685,28.4800212,0 77.10426849999999,28.4800212,0 77.10426849999999,28.484021199999997,0 77.1002685,28.484021199999997,0 77.1002685,28.4800212,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Model Town</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018301880</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1919912,28.7007136,0 77.1959912,28.7007136,0 77.1959912,28.704713599999998,0 77.1919912,28.704713599999998,0 77.1919912,28.7007136,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>M G Road</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018301881</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0778926,28.4775543,0 77.08189259999999,28.4775543,0 77.08189259999999,28.4815543,0 77.0778926,28.4815543,0 77.0778926,28.4775543,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>IFFCO Chowk</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018301882</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.07042220000001,28.470327700000002,0 77.0744222,28.470327700000002,0 77.0744222,28.4743277,0 77.07042220000001,28.4743277,0 77.07042220000001,28.470327700000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>A.I.I.M.S.</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018301883</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.20580580000001,28.564860200000002,0 77.2098058,28.564860200000002,0 77.2098058,28.5688602,0 77.20580580000001,28.5688602,0 77.20580580000001,28.564860200000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Green Park</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018316585</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2047933,28.556007100000002,0 77.2087933,28.556007100000002,0 77.2087933,28.5600071,0 77.2047933,28.5600071,0 77.2047933,28.556007100000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Civil Lines</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018316586</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2230299,28.6748508,0 77.22702989999999,28.6748508,0 77.22702989999999,28.6788508,0 77.2230299,28.6788508,0 77.2230299,28.6748508,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Vidhan Sabha</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018316587</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2197271,28.6843222,0 77.22372709999999,28.6843222,0 77.22372709999999,28.688322199999998,0 77.2197271,28.688322199999998,0 77.2197271,28.6843222,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Vishwa Vidyalaya</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018316588</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2127459,28.6930772,0 77.21674589999999,28.6930772,0 77.21674589999999,28.6970772,0 77.2127459,28.6970772,0 77.2127459,28.6930772,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Millennium City Centre Gurugram</name>
+        <description>Type: Railway Infrastructure | Priority: MEDIUM | Source: OSM (node) | ID: 7018316590</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0706571,28.4573429,0 77.0746571,28.4573429,0 77.0746571,28.4613429,0 77.0706571,28.4613429,0 77.0706571,28.4573429,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Malviya Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018316591</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2028241,28.5270656,0 77.20682409999999,28.5270656,0 77.20682409999999,28.531065599999998,0 77.2028241,28.531065599999998,0 77.2028241,28.5270656,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Chhatarpur</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018316592</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1730019,28.504724200000002,0 77.1770019,28.504724200000002,0 77.1770019,28.5087242,0 77.1730019,28.5087242,0 77.1730019,28.504724200000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Sultanpur</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018711118</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1593745,28.4971235,0 77.16337449999999,28.4971235,0 77.16337449999999,28.5011235,0 77.1593745,28.5011235,0 77.1593745,28.4971235,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Chandni Chowk</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018886724</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.22833750000001,28.6564227,0 77.2323375,28.6564227,0 77.2323375,28.660422699999998,0 77.22833750000001,28.660422699999998,0 77.22833750000001,28.6564227,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Chawri Bazaar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018886725</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.22451530000001,28.6472649,0 77.2285153,28.6472649,0 77.2285153,28.651264899999997,0 77.22451530000001,28.651264899999997,0 77.22451530000001,28.6472649,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Patel Chowk</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018886726</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.21203100000001,28.6209664,0 77.216031,28.6209664,0 77.216031,28.624966399999998,0 77.21203100000001,28.624966399999998,0 77.21203100000001,28.6209664,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Udyog Bhavan</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018886727</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.20979600000001,28.6075136,0 77.213796,28.6075136,0 77.213796,28.6115136,0 77.20979600000001,28.6115136,0 77.20979600000001,28.6075136,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Lok Kalyan Marg</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018886728</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2090967,28.5953513,0 77.2130967,28.5953513,0 77.2130967,28.5993513,0 77.2090967,28.5993513,0 77.2090967,28.5953513,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Jor Bagh</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018886729</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.21052730000001,28.5845094,0 77.2145273,28.5845094,0 77.2145273,28.5885094,0 77.21052730000001,28.5885094,0 77.21052730000001,28.5845094,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Qutab Minar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018886730</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.18445320000001,28.510951000000002,0 77.1884532,28.510951000000002,0 77.1884532,28.514951,0 77.18445320000001,28.514951,0 77.18445320000001,28.510951000000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Ghitorni</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018886731</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1471866,28.491751,0 77.15118659999999,28.491751,0 77.15118659999999,28.495751,0 77.1471866,28.495751,0 77.1471866,28.491751,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Arjan Garh</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7018886732</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.1237622,28.478735200000003,0 77.12776219999999,28.478735200000003,0 77.12776219999999,28.4827352,0 77.1237622,28.4827352,0 77.1237622,28.478735200000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Nangli</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7039532905</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0084375,28.6153003,0 77.01243749999999,28.6153003,0 77.01243749999999,28.6193003,0 77.0084375,28.6193003,0 77.0084375,28.6153003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Nehru Place</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7267374894</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2497386,28.5494171,0 77.25373859999999,28.5494171,0 77.25373859999999,28.553417099999997,0 77.2497386,28.553417099999997,0 77.2497386,28.5494171,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Kailash Colony</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7267374895</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2399637,28.5533298,0 77.2439637,28.5533298,0 77.2439637,28.557329799999998,0 77.2399637,28.557329799999998,0 77.2399637,28.5533298,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Lal Quila</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7282286730</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2346607,28.655483,0 77.2386607,28.655483,0 77.2386607,28.659482999999998,0 77.2346607,28.659482999999998,0 77.2346607,28.655483,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Khan Market</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7282286731</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2271281,28.6002446,0 77.23112809999999,28.6002446,0 77.23112809999999,28.604244599999998,0 77.2271281,28.604244599999998,0 77.2271281,28.6002446,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Delhi Gate</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 7282286733</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2387795,28.6372174,0 77.2427795,28.6372174,0 77.2427795,28.6412174,0 77.2387795,28.6412174,0 77.2387795,28.6372174,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Rajiv Chowk</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 8018558072</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.21769850000001,28.630778600000003,0 77.2216985,28.630778600000003,0 77.2216985,28.6347786,0 77.21769850000001,28.6347786,0 77.21769850000001,28.630778600000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Paschim Vihar West</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9066465094</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.10021540000001,28.676613,0 77.1042154,28.676613,0 77.1042154,28.680612999999997,0 77.10021540000001,28.680612999999997,0 77.10021540000001,28.676613,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Najafgarh</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9172459622</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>76.98450670000001,28.6104504,0 76.9885067,28.6104504,0 76.9885067,28.6144504,0 76.98450670000001,28.6144504,0 76.98450670000001,28.6104504,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Laxmi Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9415047898</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.275523,28.6285974,0 77.279523,28.6285974,0 77.279523,28.632597399999998,0 77.275523,28.632597399999998,0 77.275523,28.6285974,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Preet Vihar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9415047899</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.29328190000001,28.6394176,0 77.2972819,28.6394176,0 77.2972819,28.6434176,0 77.29328190000001,28.6434176,0 77.29328190000001,28.6394176,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Badhkal Mor</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9552724758</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3083481,28.4207134,0 77.3123481,28.4207134,0 77.3123481,28.424713399999998,0 77.3083481,28.424713399999998,0 77.3083481,28.4207134,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Moolchand</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9584236504</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.23225550000001,28.562404400000002,0 77.2362555,28.562404400000002,0 77.2362555,28.5664044,0 77.23225550000001,28.5664044,0 77.23225550000001,28.562404400000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Jangpura</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9584236505</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2373151,28.5810386,0 77.2413151,28.5810386,0 77.2413151,28.585038599999997,0 77.2373151,28.585038599999997,0 77.2373151,28.5810386,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Jawaharlal Nehru Stadium</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9584236506</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2317833,28.586234700000002,0 77.2357833,28.586234700000002,0 77.2357833,28.5902347,0 77.2317833,28.5902347,0 77.2317833,28.586234700000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Janpath</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9584236507</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2172587,28.622048500000002,0 77.22125869999999,28.622048500000002,0 77.22125869999999,28.6260485,0 77.2172587,28.6260485,0 77.2172587,28.622048500000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>ITO</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9584236508</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.23904370000001,28.6261909,0 77.2430437,28.6261909,0 77.2430437,28.6301909,0 77.23904370000001,28.6301909,0 77.23904370000001,28.6261909,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Govind Puri</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9597709830</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.26227610000001,28.5425521,0 77.2662761,28.5425521,0 77.2662761,28.5465521,0 77.26227610000001,28.5465521,0 77.26227610000001,28.5425521,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Harkesh Nagar Okhla</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9597709831</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.27304070000001,28.5409338,0 77.2770407,28.5409338,0 77.2770407,28.5449338,0 77.27304070000001,28.5449338,0 77.27304070000001,28.5409338,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Mandi House</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9920295123</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2321926,28.6235149,0 77.2361926,28.6235149,0 77.2361926,28.627514899999998,0 77.2321926,28.627514899999998,0 77.2321926,28.6235149,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Dabri Mor - Janakpuri South</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 9936590366</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0831893,28.61372,0 77.08718929999999,28.61372,0 77.08718929999999,28.61772,0 77.0831893,28.61772,0 77.0831893,28.61372,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Rainbow Metro Station</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 10074648933</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3762348,28.5723583,0 77.3802348,28.5723583,0 77.3802348,28.5763583,0 77.3762348,28.5763583,0 77.3762348,28.5723583,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Nirman Vihar</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 10314380321</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.28481450000001,28.634459200000002,0 77.2888145,28.634459200000002,0 77.2888145,28.6384592,0 77.28481450000001,28.6384592,0 77.28481450000001,28.634459200000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Vaishali</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 10314380322</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.337575,28.647670100000003,0 77.34157499999999,28.647670100000003,0 77.34157499999999,28.6516701,0 77.337575,28.6516701,0 77.337575,28.647670100000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Kaushambi</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 10314380323</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.32234290000001,28.6432857,0 77.3263429,28.6432857,0 77.3263429,28.647285699999998,0 77.32234290000001,28.647285699999998,0 77.32234290000001,28.6432857,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Anand Vihar</name>
+        <description>Type: Railway Infrastructure | Priority: HIGH | Source: OSM (node) | ID: 10700089589</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3147989,28.6454707,0 77.31879889999999,28.6454707,0 77.31879889999999,28.6494707,0 77.3147989,28.6494707,0 77.3147989,28.6454707,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Mansarovar Park</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 10922685709</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.29886780000001,28.673385,0 77.3028678,28.673385,0 77.3028678,28.677384999999997,0 77.29886780000001,28.677384999999997,0 77.29886780000001,28.673385,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Kashmere Gate</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 11174317216</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.226051,28.6666728,0 77.23005099999999,28.6666728,0 77.23005099999999,28.6706728,0 77.226051,28.6706728,0 77.226051,28.6666728,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Yashobhoomi Dwarka Sector 25</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 11203142798</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.04330730000001,28.5488323,0 77.0473073,28.5488323,0 77.0473073,28.5528323,0 77.04330730000001,28.5528323,0 77.04330730000001,28.5488323,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Tughlkabad railway station</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 11697504080</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.2918193,28.501986900000002,0 77.29581929999999,28.501986900000002,0 77.29581929999999,28.5059869,0 77.2918193,28.5059869,0 77.2918193,28.501986900000002,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>Krishna Park Extension</name>
+        <description>Type: Railway Infrastructure | Priority: LOW | Source: OSM (node) | ID: 12149316873</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.0824169,28.6457823,0 77.08641689999999,28.6457823,0 77.08641689999999,28.6497823,0 77.0824169,28.6497823,0 77.0824169,28.6457823,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+    <Placemark>
+        <name>New Ashok Nagar</name>
+        <description>Type: Railway Infrastructure | Priority: HIGH | Source: OSM (node) | ID: 12478188647</description>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>77.3005084,28.589269400000003,0 77.30450839999999,28.589269400000003,0 77.30450839999999,28.5932694,0 77.3005084,28.5932694,0 77.3005084,28.589269400000003,0</coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
