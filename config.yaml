@@ -24,9 +24,9 @@ satellite:
   real_mode: true
   
 usgs:
-  username: "monkeyrocks785"
-  password: "your_password"
-  api_token: "CHt6HptuFRJ2c8rJvFOLFNNHn2fgpjAHn!avIbJ9XEJb53Nx35nfWRRiTZ@kTrwd"
+  username: ""
+  password: ""
+  api_token: ""
   base_url: "https://m2m.cr.usgs.gov/api/api/json/stable/"
   node: "EE"
   auth_method: "token"
