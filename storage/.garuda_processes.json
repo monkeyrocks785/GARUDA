@@ -1,0 +1,14 @@
+{
+  "backend": {
+    "pid": 9372,
+    "started_at": 1784830051.186914,
+    "status": "stopped",
+    "stopped_at": 1784830411.4293487
+  },
+  "frontend": {
+    "pid": 22768,
+    "started_at": 1784830056.8543434,
+    "status": "stopped",
+    "stopped_at": 1784830411.4467456
+  }
+}
