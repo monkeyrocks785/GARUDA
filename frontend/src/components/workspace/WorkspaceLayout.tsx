@@ -2,13 +2,22 @@ import { useEffect, useRef, useCallback } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useWorkspaceStore } from "../../store/useWorkspaceStore";
 import { useWorkspaceState, useUpdateWorkspace } from "../../hooks/useWorkspace";
+import { useBasemaps, resolveBasemap } from "../../hooks/useBasemaps";
+import {
+  useImportGeoJSON,
+  useImportKML,
+  useImportShapefile,
+  useImportRaster,
+} from "../../hooks/useGeospatial";
+import { useToastStore } from "../../store/useToastStore";
+import { getErrorMessage } from "../../utils/errorMessage";
 import MapCanvas from "./MapCanvas";
 import ProjectExplorer from "./ProjectExplorer";
 import LayerManager from "./LayerManager";
 import PropertiesPanel from "./PropertiesPanel";
 import DrawingToolbar from "./DrawingToolbar";
 import StatusBar from "./StatusBar";
-import { BASEMAPS } from "../../types/workspace";
+import { BLANK_GRID_ID } from "../../types/gis";
 
 function useAutoSave(projectId: string | null) {
   const updateWorkspace = useUpdateWorkspace();
@@ -30,6 +39,14 @@ function useAutoSave(projectId: string | null) {
           active_tool: state.activeTool,
           selected_layer_id: state.selectedLayerId ?? undefined,
           panel_layout: JSON.stringify(state.panelLayout),
+          visible_layers:
+            state.visibleLayerIds.size > 0
+              ? JSON.stringify(Array.from(state.visibleLayerIds))
+              : undefined,
+          drawing_features:
+            state.drawingFeatures.length > 0
+              ? JSON.stringify(state.drawingFeatures)
+              : undefined,
         },
       });
     }, 2000);
@@ -42,6 +59,8 @@ export default function WorkspaceLayout() {
   const { id: projectId } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const { data: workspaceState } = useWorkspaceState(projectId || null);
+  const { data: basemaps } = useBasemaps();
+  const toast = useToastStore.getState();
 
   const {
     zoom,
@@ -64,6 +83,11 @@ export default function WorkspaceLayout() {
 
   const saveWorkspace = useAutoSave(projectId || null);
 
+  const importGeoJSON = useImportGeoJSON();
+  const importKML = useImportKML();
+  const importShapefile = useImportShapefile();
+  const importRaster = useImportRaster();
+
   // Restore workspace from backend
   useEffect(() => {
     if (workspaceState) {
@@ -71,7 +95,7 @@ export default function WorkspaceLayout() {
         zoom: workspaceState.zoom,
         center: [workspaceState.center_lat, workspaceState.center_lng],
         mapRotation: workspaceState.map_rotation,
-        basemap: workspaceState.basemap || "osm",
+        basemap: workspaceState.basemap || BLANK_GRID_ID,
         activeTool: workspaceState.active_tool || "pan",
         selectedLayerId: workspaceState.selected_layer_id,
       });
@@ -83,8 +107,37 @@ export default function WorkspaceLayout() {
           console.warn("Invalid panel_layout JSON", e);
         }
       }
+      if (workspaceState.visible_layers) {
+        try {
+          const ids = JSON.parse(workspaceState.visible_layers);
+          if (Array.isArray(ids) && ids.length > 0) {
+            useWorkspaceStore.setState({ visibleLayerIds: new Set(ids) });
+          }
+        } catch (e) {
+          console.warn("Invalid visible_layers JSON", e);
+        }
+      }
+      if (workspaceState.drawing_features) {
+        try {
+          const features = JSON.parse(workspaceState.drawing_features);
+          if (Array.isArray(features)) {
+            useWorkspaceStore.setState({ drawingFeatures: features });
+          }
+        } catch (e) {
+          console.warn("Invalid drawing_features JSON", e);
+        }
+      }
     }
   }, [workspaceState, setPanelLayout]);
+
+  // If a saved basemap no longer exists, fall back to the offline blank grid.
+  useEffect(() => {
+    if (!basemaps || basemaps.length === 0) return;
+    const resolved = resolveBasemap(basemap, basemaps);
+    if (!resolved && basemap !== BLANK_GRID_ID) {
+      setBasemap(BLANK_GRID_ID);
+    }
+  }, [basemap, basemaps, setBasemap]);
 
   // Auto-save on state changes
   useEffect(() => {
@@ -135,10 +188,7 @@ export default function WorkspaceLayout() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [setActiveTool]);
 
-  const handleDragEnd = (
-    panelId: string,
-    e: React.MouseEvent
-  ) => {
+  const handleDragEnd = (panelId: string, e: React.MouseEvent) => {
     const startX = e.clientX;
     const startWidth = panelLayout[panelId]?.width || 280;
     const isRight = panelLayout[panelId]?.position === "right";
@@ -160,12 +210,45 @@ export default function WorkspaceLayout() {
     document.body.style.userSelect = "none";
   };
 
+  const handleDropFiles = async (e: React.DragEvent) => {
+    e.preventDefault();
+    if (!projectId) return;
+    const files = Array.from(e.dataTransfer.files || []);
+    for (const file of files) {
+      const name = file.name.toLowerCase();
+      try {
+        if (name.endsWith(".tif") || name.endsWith(".tiff")) {
+          await importRaster.mutateAsync({ projectId, file });
+          toast.success(`Raster imported: ${file.name}`);
+        } else if (name.endsWith(".geojson") || name.endsWith(".json")) {
+          await importGeoJSON.mutateAsync({ projectId, file });
+          toast.success(`Layer imported: ${file.name}`);
+        } else if (name.endsWith(".kml")) {
+          await importKML.mutateAsync({ projectId, file });
+          toast.success(`Layer imported: ${file.name}`);
+        } else if (name.endsWith(".zip")) {
+          await importShapefile.mutateAsync({ projectId, file });
+          toast.success(`Layer imported: ${file.name}`);
+        } else {
+          toast.error(`Unsupported file type: ${file.name}`);
+        }
+      } catch (error) {
+        toast.error(getErrorMessage(error));
+      }
+    }
+  };
+
   const showExplorer = panelLayout.projectExplorer?.visible !== false;
   const showLayers = panelLayout.layerManager?.visible !== false;
   const showProps = panelLayout.propertiesPanel?.visible !== false;
   const explorerWidth = panelLayout.projectExplorer?.width || 260;
   const layersWidth = panelLayout.layerManager?.width || 280;
   const propsWidth = panelLayout.propertiesPanel?.width || 300;
+
+  const basemapOptions = [
+    { id: BLANK_GRID_ID, name: "Blank Grid" },
+    ...(basemaps || []).map((b) => ({ id: b.id, name: b.name })),
+  ];
 
   return (
     <div className="flex flex-col h-[calc(100vh-4rem)]">
@@ -184,13 +267,14 @@ export default function WorkspaceLayout() {
 
         <div className="w-px h-5 bg-slate-600" />
 
-        {/* Basemap selector */}
+        {/* Basemap selector (offline basemaps only) */}
         <select
           value={basemap}
           onChange={(e) => setBasemap(e.target.value)}
           className="px-2 py-1 bg-slate-700 border border-slate-600 rounded text-xs text-white focus:outline-none focus:border-primary-500"
+          title="Offline basemap"
         >
-          {BASEMAPS.map((b) => (
+          {basemapOptions.map((b) => (
             <option key={b.id} value={b.id}>
               {b.name}
             </option>
@@ -327,8 +411,12 @@ export default function WorkspaceLayout() {
         )}
 
         {/* Map Canvas */}
-        <div className="flex-1 relative">
-          <MapCanvas projectId={projectId} />
+        <div
+          className="flex-1 relative"
+          onDragOver={(e) => e.preventDefault()}
+          onDrop={handleDropFiles}
+        >
+          <MapCanvas projectId={projectId} basemaps={basemaps} />
           <DrawingToolbar />
         </div>
 

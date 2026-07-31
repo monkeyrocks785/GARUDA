@@ -16,6 +16,11 @@ import type {
   ExportRequest,
   ExportResponse,
 } from "../types";
+import type {
+  GisBasemap,
+  LayerFeatureCollection,
+  FromAssetRequest,
+} from "../types/gis";
 
 const api = axios.create({
   baseURL: "/api/v1",
@@ -150,6 +155,32 @@ export const layerApi = {
 
   reorder: (projectId: string, layerIds: string[]) =>
     api.post<Layer[]>(`/projects/${projectId}/layers/reorder`, { layer_ids: layerIds }),
+
+  getFeatures: (
+    projectId: string,
+    layerId: string,
+    params?: { max_features?: number; simplify?: boolean; tolerance?: number }
+  ) =>
+    api.get<LayerFeatureCollection>(
+      `/projects/${projectId}/layers/${layerId}/features`,
+      { params }
+    ),
+
+  fromAsset: (projectId: string, data: FromAssetRequest) =>
+    api.post<Layer>(`/projects/${projectId}/layers/from-asset`, data),
+};
+
+// ============================================================
+// Offline Basemap API
+// ============================================================
+
+export const basemapApi = {
+  list: () => api.get<GisBasemap[]>("/gis/basemaps"),
+
+  registerGeotiff: (data: { name: string; path: string }) =>
+    api.post<GisBasemap>("/gis/basemaps/geotiff", data),
+
+  delete: (basemapId: string) => api.delete(`/gis/basemaps/${basemapId}`),
 };
 
 // ============================================================

@@ -14,8 +14,19 @@ import type {
   RasterDerivedProduct,
   RasterThumbnail,
 } from "../types/raster";
+import type { RasterImportResponse } from "../types/gis";
 
 export const rasterApi = {
+  importRaster: (projectId: string, file: File) => {
+    const formData = new FormData();
+    formData.append("file", file);
+    return api.post<RasterImportResponse>(
+      `/rasters/${projectId}/import`,
+      formData,
+      { headers: { "Content-Type": "multipart/form-data" } }
+    );
+  },
+
   extractMetadata: (projectId: string, filePath: string, datasetId?: string) =>
     api.post<RasterMetadata>(
       `/rasters/${projectId}/metadata`,

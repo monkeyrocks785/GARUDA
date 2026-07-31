@@ -7,6 +7,9 @@ import {
   useImportGeoJSON,
   useImportKML,
   useImportShapefile,
+  useImportRaster,
+  useRegisterAssetLayer,
+  useProjectAssets,
 } from "../../hooks/useGeospatial";
 import { useAOIs, useDeleteAOI } from "../../hooks/useGeospatial";
 import { useWorkspaceStore } from "../../store/useWorkspaceStore";
@@ -19,9 +22,9 @@ interface LayerManagerProps {
 }
 
 export default function LayerManager({ projectId }: LayerManagerProps) {
-  const { selectedLayerId, setSelectedLayerId, visibleLayerIds, toggleLayerVisibility } =
-    useWorkspaceStore();
+  const { selectedLayerId, setSelectedLayerId } = useWorkspaceStore();
   const [importMenuOpen, setImportMenuOpen] = useState(false);
+  const [assetPickerOpen, setAssetPickerOpen] = useState(false);
   const [editingLayerId, setEditingLayerId] = useState<string | null>(null);
   const [editName, setEditName] = useState("");
   const [contextMenu, setContextMenu] = useState<{
@@ -32,6 +35,7 @@ export default function LayerManager({ projectId }: LayerManagerProps) {
 
   const { data: layers = [], isLoading: layersLoading, isError: layersError, error: layersErrorObj, refetch: refetchLayers } = useLayers(projectId || null);
   const { data: aois = [] } = useAOIs(projectId || null);
+  const { data: assets = [], isLoading: assetsLoading } = useProjectAssets(projectId || null);
   const toast = useToastStore.getState();
 
   const toggleVisibility = useToggleLayerVisibility();
@@ -42,31 +46,46 @@ export default function LayerManager({ projectId }: LayerManagerProps) {
   const importGeoJSON = useImportGeoJSON();
   const importKML = useImportKML();
   const importShapefile = useImportShapefile();
+  const importRaster = useImportRaster();
+  const registerAssetLayer = useRegisterAssetLayer();
 
-  const handleFileImport = async (type: "geojson" | "kml" | "shapefile", file: File) => {
+  const handleFileImport = async (type: "geojson" | "kml" | "shapefile" | "raster", file: File) => {
     if (!projectId) return;
     try {
       if (type === "geojson") await importGeoJSON.mutateAsync({ projectId, file });
       else if (type === "kml") await importKML.mutateAsync({ projectId, file });
       else if (type === "shapefile") await importShapefile.mutateAsync({ projectId, file });
-      toast.success("Layer imported");
+      else if (type === "raster") await importRaster.mutateAsync({ projectId, file });
+      toast.success(type === "raster" ? "Raster imported" : "Layer imported");
       setImportMenuOpen(false);
     } catch (error) {
       toast.error(getErrorMessage(error));
     }
   };
 
-  const handleFileInput = (type: "geojson" | "kml" | "shapefile") => {
+  const handleFileInput = (type: "geojson" | "kml" | "shapefile" | "raster") => {
     const input = document.createElement("input");
     input.type = "file";
     if (type === "geojson") input.accept = ".geojson,.json";
     else if (type === "kml") input.accept = ".kml";
     else if (type === "shapefile") input.accept = ".zip";
+    else if (type === "raster") input.accept = ".tif,.tiff";
     input.onchange = (e) => {
       const file = (e.target as HTMLInputElement).files?.[0];
       if (file) handleFileImport(type, file);
     };
     input.click();
+  };
+
+  const handleRegisterAsset = async (assetId: string, assetName: string) => {
+    if (!projectId) return;
+    try {
+      await registerAssetLayer.mutateAsync({ projectId, assetId, name: assetName });
+      toast.success("Asset added as layer");
+      setAssetPickerOpen(false);
+    } catch (error) {
+      toast.error(getErrorMessage(error));
+    }
   };
 
   const startRename = (layerId: string, currentName: string) => {
@@ -88,6 +107,18 @@ export default function LayerManager({ projectId }: LayerManagerProps) {
 
   const sortedLayers = [...layers].sort((a, b) => b.z_index - a.z_index);
 
+  const allVisible = sortedLayers.every((l) => l.visible !== false);
+  const handleToggleAll = () => {
+    if (!projectId) return;
+    sortedLayers.forEach((layer) => {
+      const shouldShow = allVisible ? false : true;
+      const isVisible = layer.visible !== false;
+      if (isVisible !== shouldShow) {
+        toggleVisibility.mutate({ projectId, layerId: layer.id });
+      }
+    });
+  };
+
   return (
     <div className="flex flex-col h-full relative">
       {/* Header */}
@@ -96,22 +127,7 @@ export default function LayerManager({ projectId }: LayerManagerProps) {
           <h3 className="font-semibold text-white text-sm">Layers</h3>
           <div className="flex items-center gap-1">
             <button
-              onClick={() => {
-                if (projectId) {
-                  const allVisible = sortedLayers.every(
-                    (l) => visibleLayerIds.has(l.id) || !visibleLayerIds.size
-                  );
-                  if (allVisible) {
-                    sortedLayers.forEach((l) => {
-                      if (visibleLayerIds.has(l.id)) toggleLayerVisibility(l.id);
-                    });
-                  } else {
-                    sortedLayers.forEach((l) => {
-                      if (!visibleLayerIds.has(l.id)) toggleLayerVisibility(l.id);
-                    });
-                  }
-                }
-              }}
+              onClick={handleToggleAll}
               className="p-1.5 text-slate-400 hover:text-white hover:bg-slate-700 rounded-lg transition-colors"
               title="Toggle All Visibility"
             >
@@ -131,15 +147,21 @@ export default function LayerManager({ projectId }: LayerManagerProps) {
                 </svg>
               </button>
               {importMenuOpen && (
-                <div className="absolute right-0 top-full mt-1 w-48 bg-slate-800 border border-slate-700 rounded-lg shadow-lg z-50">
+                <div className="absolute right-0 top-full mt-1 w-52 bg-slate-800 border border-slate-700 rounded-lg shadow-lg z-50">
                   <button onClick={() => handleFileInput("geojson")} className="w-full px-3 py-2 text-left text-sm text-slate-300 hover:bg-slate-700 rounded-t-lg">
                     Import GeoJSON
                   </button>
                   <button onClick={() => handleFileInput("kml")} className="w-full px-3 py-2 text-left text-sm text-slate-300 hover:bg-slate-700">
                     Import KML
                   </button>
-                  <button onClick={() => handleFileInput("shapefile")} className="w-full px-3 py-2 text-left text-sm text-slate-300 hover:bg-slate-700 rounded-b-lg">
+                  <button onClick={() => handleFileInput("shapefile")} className="w-full px-3 py-2 text-left text-sm text-slate-300 hover:bg-slate-700">
                     Import Shapefile (ZIP)
+                  </button>
+                  <button onClick={() => handleFileInput("raster")} className="w-full px-3 py-2 text-left text-sm text-slate-300 hover:bg-slate-700">
+                    Import Raster (GeoTIFF)
+                  </button>
+                  <button onClick={() => { setImportMenuOpen(false); setAssetPickerOpen(true); }} className="w-full px-3 py-2 text-left text-sm text-slate-300 hover:bg-slate-700 rounded-b-lg">
+                    Register Asset as Layer
                   </button>
                 </div>
               )}
@@ -166,7 +188,7 @@ export default function LayerManager({ projectId }: LayerManagerProps) {
         ) : (
           <div className="p-1 space-y-0.5">
             {sortedLayers.map((layer) => {
-              const isVisible = visibleLayerIds.size === 0 ? layer.visible : visibleLayerIds.has(layer.id);
+              const isVisible = layer.visible !== false;
               return (
                 <div
                   key={layer.id}
@@ -293,6 +315,53 @@ export default function LayerManager({ projectId }: LayerManagerProps) {
                   </button>
                 </div>
               ))}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Asset Picker */}
+      {assetPickerOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4">
+          <div className="bg-slate-800 border border-slate-700 rounded-lg shadow-xl w-full max-w-sm flex flex-col max-h-[70%]">
+            <div className="p-3 border-b border-slate-700 flex items-center justify-between">
+              <h4 className="text-sm font-medium text-white">Register Asset as Layer</h4>
+              <button
+                onClick={() => setAssetPickerOpen(false)}
+                className="p-1 text-slate-400 hover:text-white rounded"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div className="flex-1 overflow-y-auto p-2">
+              {assetsLoading ? (
+                <div className="p-4 text-center text-slate-400 text-sm">Loading assets...</div>
+              ) : assets.length === 0 ? (
+                <div className="p-4 text-center text-slate-400 text-sm">
+                  No assets in this project yet.
+                </div>
+              ) : (
+                <div className="space-y-1">
+                  {assets.map((asset) => (
+                    <button
+                      key={asset.id}
+                      onClick={() => handleRegisterAsset(asset.id, asset.display_name || asset.name)}
+                      className="w-full flex items-center gap-2 px-3 py-2 text-left text-sm text-slate-300 hover:bg-slate-700 rounded"
+                    >
+                      <span className="text-xs">📎</span>
+                      <span className="flex-1 truncate">{asset.display_name || asset.name}</span>
+                      <span className="text-[10px] text-slate-500 uppercase">{asset.asset_type}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+            <div className="p-2 border-t border-slate-700">
+              <p className="text-[10px] text-slate-500">
+                Rasters and vector files (GeoJSON, KML, ZIP) can be displayed in the GIS workspace.
+              </p>
             </div>
           </div>
         </div>

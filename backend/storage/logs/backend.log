@@ -2324,3 +2324,54 @@
 2026-07-31 22:44:00.235 | INFO     | geo.layer_service:toggle_visibility:127 | Layer visibility toggled
 2026-07-31 22:44:00.857 | INFO     | geo.layer_service:toggle_visibility:127 | Layer visibility toggled
 2026-07-31 22:44:29.815 | INFO     | main:lifespan:42 | Shutting down GARUDA
+2026-08-01 00:01:32.228 | INFO     | core.logging:setup_logging:67 | Logging system initialized
+2026-08-01 00:01:32.234 | INFO     | main:lifespan:37 | Starting GARUDA v1.0.0
+2026-08-01 00:01:32.236 | INFO     | main:lifespan:38 | Environment: development
+2026-08-01 00:01:32.300 | INFO     | main:lifespan:40 | Database initialized
+2026-08-01 00:01:59.253 | INFO     | core.logging:setup_logging:67 | Logging system initialized
+2026-08-01 00:01:59.257 | INFO     | main:lifespan:37 | Starting GARUDA v1.0.0
+2026-08-01 00:01:59.258 | INFO     | main:lifespan:38 | Environment: development
+2026-08-01 00:01:59.316 | INFO     | main:lifespan:40 | Database initialized
+2026-08-01 00:02:38.442 | INFO     | core.logging:setup_logging:67 | Logging system initialized
+2026-08-01 00:02:38.448 | INFO     | main:lifespan:37 | Starting GARUDA v1.0.0
+2026-08-01 00:02:38.448 | INFO     | main:lifespan:38 | Environment: development
+2026-08-01 00:02:38.530 | INFO     | main:lifespan:40 | Database initialized
+2026-08-01 00:02:44.754 | INFO     | services.project_service:create_project:127 | Project created
+2026-08-01 00:02:45.958 | INFO     | raster_engine.services.raster_io:read_metadata:23 | Reading metadata from: F:\Mayank Garg\PROJECTS\Personal Projects\GARUDA\storage\projects\ab0529a2-bd6b-4956-acd4-65c17790e16e\rasters\e790ac4a-98be-47b2-9daf-ec86d31a8652.tif
+2026-08-01 00:02:45.970 | INFO     | raster_engine.services.raster_io:read_metadata:85 | Metadata: 64x64, 1 bands, CRS=EPSG:4326, dtype=float32
+2026-08-01 00:02:46.225 | INFO     | raster_engine.services.raster_io:save_metadata_to_db:266 | Saved raster metadata: 2dc8b51b-ec66-4bca-88e2-81e254273696
+2026-08-01 00:04:14.008 | INFO     | core.logging:setup_logging:67 | Logging system initialized
+2026-08-01 00:04:14.012 | INFO     | main:lifespan:37 | Starting GARUDA v1.0.0
+2026-08-01 00:04:14.013 | INFO     | main:lifespan:38 | Environment: development
+2026-08-01 00:04:14.073 | INFO     | main:lifespan:40 | Database initialized
+2026-08-01 00:04:21.448 | INFO     | services.project_service:create_project:127 | Project created
+2026-08-01 00:04:22.159 | INFO     | raster_engine.services.raster_io:read_metadata:23 | Reading metadata from: F:\Mayank Garg\PROJECTS\Personal Projects\GARUDA\storage\projects\740808aa-2b0e-470f-a8f4-c1b188ffcc88\rasters\e023f236-5bcd-41fd-968c-83105c501884.tif
+2026-08-01 00:04:22.177 | INFO     | raster_engine.services.raster_io:read_metadata:85 | Metadata: 64x64, 1 bands, CRS=EPSG:4326, dtype=float32
+2026-08-01 00:04:22.279 | INFO     | raster_engine.services.raster_io:save_metadata_to_db:266 | Saved raster metadata: 024d7e98-6bcb-444c-8ca5-cd3466ab470b
+2026-08-01 00:04:22.339 | INFO     | geo.layer_service:create_layer:61 | Layer created
+2026-08-01 00:04:22.367 | INFO     | raster_engine.services.import_service:import_raster_upload:140 | Raster imported
+2026-08-01 00:04:39.183 | INFO     | core.logging:setup_logging:67 | Logging system initialized
+2026-08-01 00:04:39.187 | INFO     | main:lifespan:37 | Starting GARUDA v1.0.0
+2026-08-01 00:04:39.188 | INFO     | main:lifespan:38 | Environment: development
+2026-08-01 00:04:39.264 | INFO     | main:lifespan:40 | Database initialized
+2026-08-01 00:04:46.636 | INFO     | services.project_service:create_project:127 | Project created
+2026-08-01 00:04:46.964 | INFO     | raster_engine.services.raster_io:read_metadata:23 | Reading metadata from: F:\Mayank Garg\PROJECTS\Personal Projects\GARUDA\storage\projects\6c5fc39e-7149-4dbd-a56c-0179a9946084\rasters\bf58b9ee-f3a3-42c0-b82c-c525c5e66d1a.tif
+2026-08-01 00:04:46.970 | INFO     | raster_engine.services.raster_io:read_metadata:85 | Metadata: 64x64, 1 bands, CRS=EPSG:4326, dtype=float32
+2026-08-01 00:04:46.996 | INFO     | raster_engine.services.raster_io:save_metadata_to_db:266 | Saved raster metadata: 9eab01d7-3e61-4e0c-8a82-8b8175756f50
+2026-08-01 00:04:47.009 | INFO     | geo.layer_service:create_layer:61 | Layer created
+2026-08-01 00:04:47.009 | INFO     | raster_engine.services.import_service:import_raster_upload:140 | Raster imported
+2026-08-01 00:04:47.148 | INFO     | gis_engine.basemap_service:register_geotiff_basemap:133 | GeoTIFF basemap registered
+2026-08-01 00:16:20.389 | INFO     | core.logging:setup_logging:67 | Logging system initialized
+2026-08-01 00:16:20.398 | INFO     | main:lifespan:37 | Starting GARUDA v1.0.0
+2026-08-01 00:16:20.399 | INFO     | main:lifespan:38 | Environment: development
+2026-08-01 00:16:20.916 | INFO     | main:lifespan:40 | Database initialized
+2026-08-01 00:16:27.164 | INFO     | services.project_service:open_project:154 | Project opened
+2026-08-01 00:16:38.417 | INFO     | geo.layer_service:toggle_visibility:133 | Layer visibility toggled
+2026-08-01 00:16:38.805 | INFO     | geo.layer_service:toggle_visibility:133 | Layer visibility toggled
+2026-08-01 00:17:49.423 | INFO     | services.project_service:open_project:154 | Project opened
+2026-08-01 00:18:06.786 | INFO     | services.project_service:open_project:154 | Project opened
+2026-08-01 00:18:44.124 | INFO     | core.logging:setup_logging:67 | Logging system initialized
+2026-08-01 00:18:44.134 | INFO     | main:lifespan:37 | Starting GARUDA v1.0.0
+2026-08-01 00:18:44.135 | INFO     | main:lifespan:38 | Environment: development
+2026-08-01 00:18:44.208 | INFO     | main:lifespan:40 | Database initialized
+2026-08-01 00:18:44.210 | INFO     | main:lifespan:44 | Shutting down GARUDA

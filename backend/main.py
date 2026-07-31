@@ -29,6 +29,8 @@ async def lifespan(app: FastAPI):
         settings.PROJECTS_DIR,
         settings.MODELS_DIR,
         settings.LOG_DIR,
+        settings.TILES_DIR,
+        settings.BASEMAPS_DIR,
     ]:
         Path(dir_path).mkdir(parents=True, exist_ok=True)
 

@@ -26,6 +26,7 @@ class LayerService:
         style: dict | None = None,
         extra_metadata: dict | None = None,
         z_index: int = 0,
+        crs: str | None = "EPSG:4326",
     ) -> Layer:
         """Create a new layer.
 
@@ -38,6 +39,7 @@ class LayerService:
             style: Style properties as dict.
             extra_metadata: Metadata as dict.
             z_index: Z-index for ordering.
+            crs: Coordinate reference system of the layer data.
 
         Returns:
             Created Layer instance.
@@ -51,6 +53,7 @@ class LayerService:
             style=json.dumps(style) if style else None,
             extra_metadata=json.dumps(extra_metadata) if extra_metadata else None,
             z_index=z_index,
+            crs=crs,
         )
 
         layer = self.repository.create(layer)
@@ -82,6 +85,7 @@ class LayerService:
         z_index: int | None = None,
         style: dict | None = None,
         extra_metadata: dict | None = None,
+        crs: str | None = None,
     ) -> Layer:
         """Update a layer.
 
@@ -108,6 +112,8 @@ class LayerService:
             layer.style = json.dumps(style)
         if extra_metadata is not None:
             layer.extra_metadata = json.dumps(extra_metadata)
+        if crs is not None:
+            layer.crs = crs
 
         layer = self.repository.update(layer)
 

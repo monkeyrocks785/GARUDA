@@ -78,6 +78,7 @@ export default function PropertiesPanel({ projectId }: PropertiesPanelProps) {
       fields: [
         { label: "UUID", value: selectedLayer.id },
         { label: "Type", value: selectedLayer.layer_type },
+        { label: "CRS", value: selectedLayer.crs || "N/A" },
         { label: "Visible", value: selectedLayer.visible ? "Yes" : "No" },
         { label: "Opacity", value: `${Math.round(selectedLayer.opacity * 100)}%` },
         { label: "Z-Index", value: String(selectedLayer.z_index) },

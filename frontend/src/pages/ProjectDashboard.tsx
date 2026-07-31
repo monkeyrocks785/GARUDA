@@ -180,7 +180,7 @@ export default function ProjectDashboard() {
             Queries
           </button>
           <button
-            onClick={() => navigate(`/projects/${id}/map`)}
+            onClick={() => navigate(`/projects/${id}/gis`)}
             className="px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg transition-colors"
           >
             Open Map

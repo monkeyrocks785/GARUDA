@@ -2,14 +2,6 @@ import { create } from "zustand";
 import type { PanelLayout } from "../types/workspace";
 import { DEFAULT_PANEL_LAYOUT } from "../types/workspace";
 
-// eslint-disable-next-line @typescript-eslint/no-namespace
-declare namespace GeoJSON {
-  interface Geometry {
-    type: string;
-    coordinates: number[] | number[][] | number[][][] | number[][][][];
-  }
-}
-
 interface WorkspaceStore {
   projectId: string | null;
   setProjectId: (id: string | null) => void;
@@ -65,6 +57,10 @@ interface WorkspaceStore {
   undo: () => unknown | null;
   redo: () => unknown | null;
 
+  // Drawing features (persisted)
+  drawingFeatures: GeoJSON.Feature[];
+  setDrawingFeatures: (features: GeoJSON.Feature[]) => void;
+
   // Visible layers
   visibleLayerIds: Set<string>;
   setVisibleLayerIds: (ids: Set<string>) => void;
@@ -91,6 +87,7 @@ const initialState = {
   mousePosition: null as [number, number] | null,
   undoStack: [] as unknown[],
   redoStack: [] as unknown[],
+  drawingFeatures: [] as GeoJSON.Feature[],
   visibleLayerIds: new Set<string>(),
 };
 
@@ -167,6 +164,7 @@ export const useWorkspaceStore = create<WorkspaceStore>((set, get) => ({
   },
 
   setVisibleLayerIds: (ids) => set({ visibleLayerIds: ids }),
+  setDrawingFeatures: (drawingFeatures) => set({ drawingFeatures }),
   toggleLayerVisibility: (id) =>
     set((state) => {
       const next = new Set(state.visibleLayerIds);

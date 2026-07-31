@@ -1,20 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-namespace
-declare namespace GeoJSON {
-  interface Geometry {
-    type: string;
-    coordinates: number[] | number[][] | number[][][] | number[][][][];
-  }
-  interface Feature {
-    type: "Feature";
-    geometry: Geometry;
-    properties: Record<string, unknown> | null;
-  }
-  interface FeatureCollection {
-    type: "FeatureCollection";
-    features: Feature[];
-  }
-}
-
 export interface Health {
   status: string;
   version: string;
@@ -166,6 +149,7 @@ export interface Layer {
   visible: boolean;
   opacity: number;
   z_index: number;
+  crs: string | null;
   source_id: string | null;
   source_type: string | null;
   style: string | null;
@@ -179,6 +163,7 @@ export interface LayerCreate {
   layer_type: string;
   source_id?: string;
   source_type?: string;
+  crs?: string;
   style?: Record<string, unknown>;
   metadata?: Record<string, unknown>;
   z_index?: number;
@@ -237,56 +222,6 @@ export interface ExportResponse {
   filename: string;
   format: string;
 }
-
-// ============================================================
-// Basemap Types
-// ============================================================
-
-export interface BasemapOption {
-  id: string;
-  name: string;
-  url: string;
-  attribution: string;
-}
-
-export const BASEMAPS: BasemapOption[] = [
-  {
-    id: "osm",
-    name: "OpenStreetMap",
-    url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-  },
-  {
-    id: "esri_satellite",
-    name: "ESRI Satellite",
-    url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-    attribution: '&copy; Esri, Maxar, Earthstar Geographics',
-  },
-  {
-    id: "esri_terrain",
-    name: "ESRI Terrain",
-    url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}",
-    attribution: '&copy; Esri',
-  },
-  {
-    id: "esri_topographic",
-    name: "ESRI Topographic",
-    url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",
-    attribution: '&copy; Esri',
-  },
-  {
-    id: "carto_light",
-    name: "Carto Light",
-    url: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-    attribution: '&copy; CARTO',
-  },
-  {
-    id: "carto_dark",
-    name: "Carto Dark",
-    url: "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-    attribution: '&copy; CARTO',
-  },
-];
 
 // ============================================================
 // Map Tool Types

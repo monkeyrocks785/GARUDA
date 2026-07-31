@@ -2,11 +2,13 @@
 
 from datetime import datetime
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Query
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
 from database.connection import get_db
+from geo.asset_layer_service import register_asset_as_layer
+from geo.layer_features_service import LayerFeaturesService
 from geo.layer_service import LayerService
 
 router = APIRouter(prefix="/projects/{project_id}/layers", tags=["Layers"])
@@ -29,6 +31,7 @@ class LayerCreate(BaseModel):
     style: dict | None = Field(None, description="Style properties")
     extra_metadata: dict | None = Field(None, description="Metadata")
     z_index: int = Field(0, description="Z-index for ordering")
+    crs: str | None = Field("EPSG:4326", description="Coordinate reference system")
 
 
 class LayerUpdate(BaseModel):
@@ -40,6 +43,7 @@ class LayerUpdate(BaseModel):
     z_index: int | None = None
     style: dict | None = None
     extra_metadata: dict | None = None
+    crs: str | None = None
 
 
 class LayerResponse(BaseModel):
@@ -56,6 +60,7 @@ class LayerResponse(BaseModel):
     source_type: str | None
     style: str | None
     extra_metadata: str | None
+    crs: str | None
     created_at: datetime
     updated_at: datetime
 
@@ -67,6 +72,13 @@ class ReorderRequest(BaseModel):
     """Schema for reordering layers."""
 
     layer_ids: list[str] = Field(..., description="Ordered list of layer IDs")
+
+
+class FromAssetRequest(BaseModel):
+    """Schema for adding an existing asset as a layer."""
+
+    asset_id: str = Field(..., description="Asset ID")
+    name: str | None = Field(None, max_length=255, description="Optional layer name")
 
 
 # ============================================================
@@ -92,6 +104,7 @@ async def create_layer(
             style=data.style,
             extra_metadata=data.extra_metadata,
             z_index=data.z_index,
+            crs=data.crs,
         )
         return layer
     except ValueError as e:
@@ -184,3 +197,52 @@ async def reorder_layers(
     """Reorder layers."""
     service = LayerService(db)
     return service.reorder_layers(project_id, data.layer_ids)
+
+
+@router.post("/from-asset", response_model=LayerResponse, status_code=201)
+async def create_layer_from_asset(
+    project_id: str,
+    data: FromAssetRequest,
+    db: Session = Depends(get_db),
+) -> LayerResponse:
+    """Add an existing GARUDA asset to the GIS workspace as a layer."""
+    try:
+        layer = register_asset_as_layer(
+            db, project_id, data.asset_id, name=data.name
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    return layer
+
+
+@router.get("/{layer_id}/features")
+async def get_layer_features(
+    project_id: str,
+    layer_id: str,
+    max_features: int = Query(2000, ge=1, le=100000),
+    simplify: bool = True,
+    tolerance: float | None = Query(None, gt=0),
+    db: Session = Depends(get_db),
+) -> dict:
+    """Return display-ready GeoJSON features for a vector layer.
+
+    Features are reprojected to EPSG:4326, optionally simplified, and capped to
+    ``max_features`` so large vectors never freeze the browser.
+    """
+    service = LayerService(db)
+    layer = service.get_layer(layer_id)
+    if not layer or layer.project_id != project_id:
+        raise HTTPException(status_code=404, detail="Layer not found")
+    if layer.layer_type == "raster":
+        raise HTTPException(status_code=400, detail="Raster layers have no vector features")
+
+    features_service = LayerFeaturesService(db)
+    try:
+        return features_service.get_feature_collection(
+            layer,
+            max_features=max_features,
+            simplify=simplify,
+            tolerance=tolerance,
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))

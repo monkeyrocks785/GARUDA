@@ -42,7 +42,10 @@ class Layer(Base):
     )  # Reference to AOI, imported file, etc.
     source_type: Mapped[str | None] = mapped_column(
         String(50), nullable=True
-    )  # aoi, imported_file, etc.
+    )  # aoi, imported_file, asset, raster_metadata, etc.
+
+    # Coordinate reference system (e.g., EPSG:4326)
+    crs: Mapped[str | None] = mapped_column(String(50), nullable=True)
 
     # Style properties (JSON)
     style: Mapped[str | None] = mapped_column(Text, nullable=True)

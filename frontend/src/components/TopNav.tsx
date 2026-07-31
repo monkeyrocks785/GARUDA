@@ -14,7 +14,7 @@ function getPageTitle(pathname: string): string {
   if (pathname.startsWith("/projects/")) {
     const segments = pathname.split("/").filter(Boolean);
     if (segments.length === 2) return "Project";
-    if (segments[2] === "map") return "GIS Workspace";
+    if (segments[2] === "map" || segments[2] === "gis") return "GIS Workspace";
     if (segments[2] === "datasets") return "Datasets";
     if (segments[2] === "assets") return "Assets";
     if (segments[2] === "pipelines") return "Pipelines";

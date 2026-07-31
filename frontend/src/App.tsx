@@ -23,6 +23,7 @@ function App() {
         <Route path="projects" element={<Projects />} />
         <Route path="projects/:id" element={<ProjectDashboard />} />
         <Route path="projects/:id/map" element={<MapPage />} />
+        <Route path="projects/:id/gis" element={<MapPage />} />
         <Route path="projects/:id/datasets" element={<DatasetManager />} />
         <Route path="projects/:id/assets" element={<AssetLibrary />} />
         <Route path="projects/:id/pipelines" element={<PipelineManager />} />

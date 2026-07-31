@@ -5,10 +5,12 @@ import uuid
 from datetime import datetime
 from pathlib import Path
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, File, HTTPException, UploadFile
+from fastapi.responses import Response
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
+from config.settings import settings
 from database.connection import get_db
 from raster_engine.database.models import (
     RasterDerivedProduct,
@@ -31,6 +33,8 @@ from raster_engine.services import (
     save_metadata_to_db,
     set_nodata,
 )
+from raster_engine.services.import_service import import_raster_upload
+from raster_engine.services.tile_server import serve_tile, tile_cache_path
 
 router = APIRouter(prefix="/rasters", tags=["Raster Processing"])
 
@@ -130,6 +134,22 @@ class MosaicRequest(BaseModel):
     file_paths: list[str] = Field(..., description="Input file paths")
     output_filename: str = Field("mosaic.tif", description="Output filename")
     method: str = Field("first", description="Merge method")
+
+
+class RasterImportResponse(BaseModel):
+    """Schema for raster import response."""
+
+    layer_id: str
+    raster_id: str
+    project_id: str
+    name: str
+    file_path: str
+    crs: str | None
+    width: int
+    height: int
+    band_count: int
+    file_size: int
+    tile_url_template: str
 
 
 # ============================================================
@@ -547,7 +567,7 @@ async def handle_nodata(
     return result
 
 
-@router.post("/{project_id}/{raster_id}/thumbnail")
+@router.post("/{project_id}/thumbnail")
 async def create_thumbnail(
     project_id: str,
     raster_id: str,
@@ -568,3 +588,85 @@ async def create_thumbnail(
     result = generate_thumbnail(raster.file_path, output_path, width, height)
 
     return result
+
+
+# ============================================================
+# GIS Workspace endpoints
+# ============================================================
+
+
+@router.post("/{project_id}/import", response_model=RasterImportResponse, status_code=201)
+async def import_raster(
+    project_id: str,
+    file: UploadFile = File(...),
+    db: Session = Depends(get_db),
+) -> RasterImportResponse:
+    """Import an uploaded raster file as a GIS layer (tiles served on demand)."""
+    content = await file.read()
+    try:
+        layer, metadata = import_raster_upload(
+            db, project_id, content, file.filename or "raster"
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+    raster_id = layer.source_id
+    return RasterImportResponse(
+        layer_id=layer.id,
+        raster_id=raster_id or "",
+        project_id=project_id,
+        name=layer.name,
+        file_path=metadata.get("file_path") or "",
+        crs=metadata.get("crs"),
+        width=int(metadata.get("width") or 0),
+        height=int(metadata.get("height") or 0),
+        band_count=int(metadata.get("band_count") or 0),
+        file_size=int(metadata.get("file_size") or 0),
+        tile_url_template=f"/api/v1/rasters/{project_id}/{raster_id}/tiles/{{z}}/{{x}}/{{y}}.png",
+    )
+
+
+@router.get("/{project_id}/{raster_id}/tiles/{z}/{x}/{y}.png")
+async def get_raster_tile(
+    project_id: str,
+    raster_id: str,
+    z: int,
+    x: int,
+    y: int,
+    db: Session = Depends(get_db),
+) -> Response:
+    """Serve a web-mercator PNG tile for a raster (backed by on-disk cache)."""
+    if not (0 <= z <= 24) or x < 0 or y < 0 or x > 2 ** z - 1 or y > 2 ** z - 1:
+        raise HTTPException(status_code=400, detail="Invalid tile coordinates")
+
+    raster = (
+        db.query(RasterMetadata)
+        .filter(RasterMetadata.id == raster_id, RasterMetadata.project_id == project_id)
+        .first()
+    )
+    if not raster:
+        raise HTTPException(status_code=404, detail="Raster not found")
+
+    cache_path = tile_cache_path(settings.CACHE_DIR, raster.id, z, x, y)
+    if cache_path.exists():
+        return Response(
+            content=cache_path.read_bytes(),
+            media_type="image/png",
+            headers={"Cache-Control": "public, max-age=86400"},
+        )
+
+    png = serve_tile(raster.file_path, z, x, y)
+    if png is None:
+        raise HTTPException(status_code=404, detail="No data for tile")
+
+    try:
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+        cache_path.write_bytes(png)
+    except OSError:
+        pass
+
+    return Response(
+        content=png,
+        media_type="image/png",
+        headers={"Cache-Control": "public, max-age=86400"},
+    )

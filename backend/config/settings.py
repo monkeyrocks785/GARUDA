@@ -46,6 +46,10 @@ class Settings(BaseSettings):
     PROJECTS_DIR: str = str(BASE_DIR / "storage" / "projects")
     MODELS_DIR: str = str(BASE_DIR / "storage" / "models")
 
+    # Offline GIS sources
+    TILES_DIR: str = str(BASE_DIR / "storage" / "tiles")
+    BASEMAPS_DIR: str = str(BASE_DIR / "storage" / "basemaps")
+
     # Security
     SECRET_KEY: str = "change-me-in-production"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30

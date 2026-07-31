@@ -55,15 +55,7 @@ export const DEFAULT_PANEL_LAYOUT: PanelLayout = {
 };
 
 export const BASEMAPS = [
-  { id: "osm", name: "OpenStreetMap", url: "https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png" },
-  { id: "dark", name: "Dark Mode", url: "https://{a-c}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png" },
-  { id: "satellite", name: "Satellite", url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}" },
-  { id: "topo", name: "Topographic", url: "https://{a-c}.tile.opentopomap.org/{z}/{x}/{y}.png" },
   { id: "blank_grid", name: "Blank Grid", url: "" },
-  { id: "local_xyz", name: "Local XYZ Tiles", url: "" },
-  { id: "local_mbtiles", name: "MBTiles", url: "" },
-  { id: "local_geotiff", name: "GeoTIFF Basemap", url: "" },
-  { id: "local_raster", name: "Raster Folder", url: "" },
 ] as const;
 
 export type BasemapId = (typeof BASEMAPS)[number]["id"];
